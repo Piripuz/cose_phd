@@ -1,0 +1,101 @@
+#+STARTUP: overview
+#+STARTUP: indent
+
+* Vienna - [[https://csh.ac.at/][Complexity Science Hub]]
+** [[https://csh.ac.at/research/research-topic/social-complexity-collapse/][Social Complexity & Collapse]]
+Ha a che fare con *Storia*.
+*** [[https://peterturchin.com/][Peter Turchin]] [[https://scholar.google.com/citations?hl=en&user=W0C05zIAAAAJ&view_op=list_works&sortby=pubdate][(scholar]])
+È il capo. Super importante ([[https://en.wikipedia.org/wiki/Peter_Turchin][wikipedia]], h-index 75), ha /fondato/ questa cosa che chiama /cliodynamics/, fa database di storia/archeologia.
+
+Nel gruppo ci sta altra gente:
+*** [[https://mariadelriochanona.info/][Maria del Rio-Chanona]] ([[https://scholar.google.com/citations?user=HwK5iiEAAAAJ&hl=en][scholar]])
+Sta in realtà ad [[https://profiles.ucl.ac.uk/97689-maria-del-riochanona][UCL]]. È una matematica, fa cose di questo tipo ma usando molto AI, NLP. Studia tipo impatto di AI. [[https://ucl-epsrc-dtp.github.io/2026-27-project-catalogue/projects/2531bd1646.html][Sta cercando un dottorato]] per AI/Multi-agent systems.
+Sembra faccia tipo come la storia si sta evolvendo con AI. Una cosa del genere.
+*** [[https://csh.ac.at/james-bennett/][James Bennett]] (scholar non si trova...)
+Non si capisce bene che fa, ma è interessante perché ha tipo lanciato lui il netflix prize (????)
+
+Poi ci stanno dei
+*** PhD
+- [[https://csh.ac.at/harry-fox/][Harry Fox]] è un tipo, applica concetti della fisica a /economia, sociologia e psicologia di gruppo/. Interessante...
+** [[https://csh.ac.at/research/research-topic/collective-minds/][Collective Minds]]
+Questo è forse anche più interessante. La descrizione è carina, la incollo...
+:Descrizione:
+Currently, we are lacking a solid scientific paradigm for studying
+collective adaptation. Instead, its intertwined cognitive and social
+dimensions have been studied in relatively isolated disciplines. We
+bring these dimensions together in computational models grounded in
+real-world data on cognition and sociality.
+:END:
+Fanno (mi sembra) cose al limite tra psicologia, sociologia e scienze dure.
+
+Ci sono 2 capi
+*** [[https://www.olssonresearch.com/][Henrik Olsson]] ([[https://scholar.google.com/citations?user=XKwkvxcAAAAJ&hl=en][scholar]])
+È psicologo, ma sembra essersi avvicinato abbastanza a ricerca
+operativa. Sembra essere piuttosto interessante - approfondisci!
+*** TODO Approfondisci questo sopra
+*** PhD
+- [[https://scholar.google.com/citations?hl=de&user=9FQdKwwAAAAJ&view_op=list_works&sortby=pubdate][Jula Lühring]] sembra abbastanza interessante - è PhD ma già ha un po'
+  di citazioni ecc. Fa comunicazione, e cose su diffusione della
+  disinformazione
+* Sapienza
+** [[https://chimera.roma1.infn.it/][Chimera]] (fisica)
+Questo in realtà non è ben chiaro se esistono ancora.
+Sembrano molto molto fisici e ci sta Parisi di mezzo - quindi pericolo.
+
+Vabbè fanno moltissimo fisica... Un po' troppo.
+*** [[https://sites.google.com/uniroma1.it/irene-giardina][Irene Giardina]] ([[https://scholar.google.it/citations?user=lPBjU44AAAAJ&hl=it][scholar]])
+Praticamente fa fisica applicata a sistemi viventi tipo, e /collective behavior/ loro.
+Forse non molto interessante, ma abbiamo stesso cognome...
+Sta nel gruppo [[https://www.isc.cnr.it/groups/cobbs/][Collective Behaviour in Biological Systems]] infatti.
+** [[https://cdcs.di.uniroma1.it/][Center for Data Science and Complexity for Society]] (informatica)
+Sicuramente fanno parecchio su polarizzazione. Che è interessante comunque.
+Poi sembra facciano anche cose su LLM e forse sentiment analysis (che vorrei fare un po' meno).
+
+Sembra che siano piuttosto applicati, forse un po' troppo. Mi fa un po' paura questa cosa della divulgazione.
+
+/Where data meets complexity, and science informs society./ Boh
+
+Il boss è
+*** [[https://walterquattrociocchi.site.uniroma1.it/][Walter Quattrociocchi]] ([[https://scholar.google.it/citations?user=_OCIc6UAAAAJ&hl=en][scholar]])
+È abbastanza uno importante, ha scritto libri ecc.
+Fa ogni paper del gruppo. Ha fatto fortuna con covid e disinformazione.
+
+* Ca' Foscari
+** [[https://www.unive.it/data/11644/][Research Institute for Complexity]]
+*** [[https://www.guidocaldarelli.com/][Guido Caldarelli]] ([[https://scholar.google.com/citations?user=RZid9X8AAAAJ&hl=it][scholar]], [[https://en.wikipedia.org/wiki/Guido_Caldarelli][wikipedia]])
+Lui super importante. È fisico, ha studiato a Sapienza, PhD a SISSA, prof a IMT.
+È direttore dell'[[https://www.isc.cnr.it/][istituto dei sistemi complessi al CNR]].
+È molto interessante per il mix tra teorico ed applicato, che sembra giusto.
+Il problema è che non posso scrivergli haha. Dovrebbe stare a Roma (CNR) però.
+* Dauphine
+Professori abilitati ad avere dottorati sono [[https://ecole-doctorale.dauphine.psl.eu/candidature/trouver-une-direction-de-these][qui]].
+** [[https://www.lamsade.dauphine.fr/en/about-us/lamsade-in-brief.html][LAMSADE (Laboratoire d'Analyse et Modélisation des Systèmes et Aide à la Décision)]]
+Questo è in origine centro di ricerca operativa, si è esteso a /aiuto alla decisione/.
+Si possono trovare tante cose mi sa qui.
+
+*** Gente varia
+Se serve gente che fa ottimizzazione discreta/lavora su grafi c'è di tutto:
+[[https://dauphine.psl.eu/recherche/cvtheque/profil/aissi-hassene][Hassan Aissi]], [[https://dauphine.psl.eu/recherche/cvtheque/profil/bazgan-cristina][Cristina Bazgan]]
+
+C'è pure parecchia gente che fa AI:
+ad esempio, [[https://www.lamsade.dauphine.fr/~ychevaleyre/][Yann Chevaleyre]] ha un PhD aperto (in /robustness in AI/).
+
+*** [[https://dauphine.psl.eu/recherche/cvtheque/profil/grigori-daniela][Daniela Grigori]] ([[https://scholar.google.com/citations?hl=fr&user=uOpbfVsAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Fa cose interessanti, anche se sembra un po' in decadenza.
+È stata direttrice del LAMSADE fino al 2023.
+
+Fa grafi e cose con processi aziendali.
+È informatica, può essere interessante.
+*** [[https://sites.google.com/site/julienlesca/home][Julien Lesca]] ([[https://scholar.google.com/citations?user=iNznokkAAAAJ&hl=fr][scholar]])
+
+Interessante: è un informatico, e fa proprio cose di /decision science/ (se questo vuol dire qualche cosa).
+Fa pure cose con grafi e ottimizzazione. Solo che pubblica poco, questa cosa non si capisce tanto.
+
+Nota che, in [[https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p687.pdf][questo paper]], dice che
+#+begin_quote
+We study a student-project allocation problem motivated by the real
+procedure used at the computer science department of University
+Paris-Dauphine. The institute (school, university) publishes a set
+of PhD projects
+#+end_quote
+Questo è un po' strano (non mi risulta...). Forse glielo si può chiedere.
