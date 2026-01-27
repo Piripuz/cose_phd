@@ -125,7 +125,36 @@ Se serve gente che fa ottimizzazione discreta/lavora su grafi c'è di tutto:
 C'è pure parecchia gente che fa AI:
 ad esempio, [[https://www.lamsade.dauphine.fr/~ychevaleyre/][Yann Chevaleyre]] ha un PhD aperto (in /robustness in AI/).
 * Sciences po
-Chiaramente qui è più difficile, sono estremamente nella parte qualitativa... Cerco gente nel quantitativo e vedo se c'è qualche cosa.
+Chiaramente qui è più difficile, sono estremamente nella parte qualitativa... Però forse qualcosa ci sta.
+** [[https://www.sciencespo.fr/cdsp/en/][Centre for Socio-Political Data]]
+Sono quelli che gestiscono dati in generale. Per quello che ho capito fanno diverse cose:
+- Gestiscono tutta l'infrastuttura di sciences po (anche sito web?) (ma questo non è che sono proprio sicuro).
+- Assistono la ricerca varia tramite produzione di dati (ci sono un sacco di questi /ingegneri di ricerca/).
+- Fanno ricerca.
+
+[[https://www.sciencespo.fr/cdsp/en/news/post-doctoral-researcher-in-historic-political-data-analysis-2-year-contract/][Stanno cercando un postdoc]], finanziato da Open AI (???). Sicuramente se volessero potrebbero prendere un PhD, ma mi sa che non vogliono qualcuno di solo scientifico.
+
+In generale, hanno tutti background in scienze politiche tranne poche eccezioni.
+[[https://www.sciencespo.fr/cdsp/en/who-are-we/team/][Qui]] c'è tutta la gente.
+
+*** [[https://www.sciencespo.fr/cdsp/fr/qui-sommes-nous/equipe/mahendra-paipuri/][Mahendra Paipuri]] ([[https://scholar.google.com/citations?hl=en&user=6kCpWZ8AAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Scrivigli assolutamente. Ha lavorato nel traffico ed ha pubblicato con Nikolas Geroliminis.
+Ora non si capisce bene che fa (in realtà dice /dirige la squadra dei progetti numerici/, ma è strano dato che ha un dottorato comunque),
+ma sta nella squadra.
+
+Questo va raggiunto assolutamente.
+
+*** [[https://www.emilianogrossman.eu/][Emiliano Grossman]] ([[https://scholar.google.com/citations?hl=en&user=mhVGOysAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+È il capo del gruppo. Dalla ricerca che fa sembra faccia cose molto umanistiche, ma è comunque direttore del centro per i dati...
+
+Fa ricerca su partiti, elezioni, ecc.
+
+*** [[https://www.rovny.org/][Jan Rovny]] ([[https://scholar.google.fr/citations?hl=fr&user=ElGAc6MAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Lui sembra faccia un po' più ricerca con dati, anche se non sembra avere nessun'affiliazione con il CDSP
+(nel sito dice che è affiliato ad un altro centro, il [[https://www.sciencespo.fr/centre-etudes-europeennes/en/][Centre for European Studies and Comparative Politics]]).
+
+In effetti, fa ricerca sui partiti e la politica europea.
+
 *** [[https://www.sciencespo.fr/centre-etudes-europeennes/en/directory/sattelmayer-luis/][Luis Sattelmayer]]
 È un PhD, e lavora sul declino dei partiti tradizionali. La cosa interessante è che
 /he primarily uses computational and experimental methods to examine party discourse and to find new ways of measuring party positions and party behavior/.
