@@ -72,20 +72,27 @@ Professori abilitati ad avere dottorati sono [[https://ecole-doctorale.dauphine.
 ** [[https://www.lamsade.dauphine.fr/en/about-us/lamsade-in-brief.html][LAMSADE (Laboratoire d'Analyse et Modélisation des Systèmes et Aide à la Décision)]]
 Questo è in origine centro di ricerca operativa, si è esteso a /aiuto alla decisione/.
 Si possono trovare tante cose mi sa qui.
+*** [[https://www.lamsade.dauphine.fr/~lang/][Jérôme Lang]] ([[https://scholar.google.com/citations?hl=fr&user=cNgZXNcAAAAJ&view_op=list_works&sortby=pubdate][scholar]], [[https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Lang][wikipedia]])
+Ha taaante citazioni (h-index tipo 67), anche se è solo /directeur de recherche/.
 
-*** Gente varia
-Se serve gente che fa ottimizzazione discreta/lavora su grafi c'è di tutto:
-[[https://dauphine.psl.eu/recherche/cvtheque/profil/aissi-hassene][Hassan Aissi]], [[https://dauphine.psl.eu/recherche/cvtheque/profil/bazgan-cristina][Cristina Bazgan]]
+È interessante: fa principalmente teoria del voto, ed intelligenza artificiale ma non statistica, precisa (a quanto sembra).
 
-C'è pure parecchia gente che fa AI:
-ad esempio, [[https://www.lamsade.dauphine.fr/~ychevaleyre/][Yann Chevaleyre]] ha un PhD aperto (in /robustness in AI/).
+La cosa che fa si chiama tipo /computational social *choice*/.
+#+begin_quote
+/Social choice studies the behavior of different mathematical procedures (social welfare functions) used to combine individual preferences into a coherent whole/.
 
-*** [[https://dauphine.psl.eu/recherche/cvtheque/profil/grigori-daniela][Daniela Grigori]] ([[https://scholar.google.com/citations?hl=fr&user=uOpbfVsAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
-Fa cose interessanti, anche se sembra un po' in decadenza.
-È stata direttrice del LAMSADE fino al 2023.
+È tipo la scienza di come le società prendono decisioni ma, in contrasto alle scienze politiche,
+prova a modellizzare processi ottimali piuttosto che a descrivere i processi attuali.
 
-Fa grafi e cose con processi aziendali.
-È informatica, può essere interessante.
+Nata da [[https://www.jstor.org/stable/j.ctt1nqb90][questo libro]] del 1951. Il libro è suuuper interessante!!
+#+end_quote
+
+È molto interessante l'impatto che la sua ricerca può potenzialmente avere sul mondo, sono *molto molto* interessato.
+*** TODO [[https://sites.google.com/site/ridalaraki/][Rida Laraki]]
+*** [[https://www.lamsade.dauphine.fr/~moretti/][Stefano Moretti]] ([[https://scholar.google.com/citations?hl=it&user=wQOB0vkAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Scrivigli perché è molto interessante. Lavora abbastanza in teoria dei giochi (ha fatto tipo 2 dottorati in teoria dei giochi).
+Pubblica in giornali abbastanza sfigati sembra.
+Ha un approccio abbastanza formale e lavora con ordini.
 *** [[https://sites.google.com/site/julienlesca/home][Julien Lesca]] ([[https://scholar.google.com/citations?user=iNznokkAAAAJ&hl=fr][scholar]])
 
 Interessante: è un informatico, e fa proprio cose di /decision science/ (se questo vuol dire qualche cosa).
@@ -99,3 +106,21 @@ Paris-Dauphine. The institute (school, university) publishes a set
 of PhD projects
 #+end_quote
 Questo è un po' strano (non mi risulta...). Forse glielo si può chiedere.
+*** [[https://dauphine.psl.eu/recherche/cvtheque/profil/grigori-daniela][Daniela Grigori]] ([[https://scholar.google.com/citations?hl=fr&user=uOpbfVsAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Fa cose interessanti, anche se sembra un po' in decadenza.
+È stata direttrice del LAMSADE fino al 2023.
+
+Fa grafi e cose con processi aziendali.
+È informatica, può essere interessante.
+*** [[https://www.lamsade.dauphine.fr/~mlampis/][Michael Lampis]] ([[https://scholar.google.com/citations?user=x0XUqygAAAAJ&hl=en][scholar]])
+È abbastanza un informatico puro (studia complessità asintotica e cose del genere),
+ma la cosa interessante è che lavora molto con i grafi. Che sono abbastanza interessanti. Però praticamente non lavora su applicazioni.
+
+Se gli scrivessi dovrei scrivergli ciao mi interessa quello che fai mi dici un applicazione?
+*** Gente varia
+Se serve gente che fa ottimizzazione discreta/lavora su grafi c'è di tutto:
+[[https://dauphine.psl.eu/recherche/cvtheque/profil/aissi-hassene][Hassan Aissi]], [[https://dauphine.psl.eu/recherche/cvtheque/profil/bazgan-cristina][Cristina Bazgan]].
+[[https://dauphine.psl.eu/recherche/cvtheque/profil/harutyunyan-ararat][Harutyunyan Ararat]] lavora su grafi in maniera molto teorica.
+
+C'è pure parecchia gente che fa AI:
+ad esempio, [[https://www.lamsade.dauphine.fr/~ychevaleyre/][Yann Chevaleyre]] ha un PhD aperto (in /robustness in AI/).
