@@ -124,3 +124,12 @@ Se serve gente che fa ottimizzazione discreta/lavora su grafi c'è di tutto:
 
 C'è pure parecchia gente che fa AI:
 ad esempio, [[https://www.lamsade.dauphine.fr/~ychevaleyre/][Yann Chevaleyre]] ha un PhD aperto (in /robustness in AI/).
+* Sciences po
+Chiaramente qui è più difficile, sono estremamente nella parte qualitativa... Cerco gente nel quantitativo e vedo se c'è qualche cosa.
+*** [[https://www.sciencespo.fr/centre-etudes-europeennes/en/directory/sattelmayer-luis/][Luis Sattelmayer]]
+È un PhD, e lavora sul declino dei partiti tradizionali. La cosa interessante è che
+/he primarily uses computational and experimental methods to examine party discourse and to find new ways of measuring party positions and party behavior/.
+
+Non mi svolterà cose, ma magari ha contatti ecc.
+
+
