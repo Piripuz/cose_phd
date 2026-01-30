@@ -88,13 +88,24 @@ Nata da [[https://www.jstor.org/stable/j.ctt1nqb90][questo libro]] del 1951. Il 
 #+end_quote
 
 È molto interessante l'impatto che la sua ricerca può potenzialmente avere sul mondo, sono *molto molto* interessato.
-*** TODO [[https://sites.google.com/site/ridalaraki/][Rida Laraki]]
+*** [[https://sites.google.com/site/ridalaraki/][Rida Laraki]] ([[https://scholar.google.com/citations?hl=fr&user=zwkQWEgAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
+Mi sa che in realtà sta in Marocco... Ma è abilitato a dirigere PhD a Dauphine (?).
+
+Comunque è interessante: ha master e PhD in matematica (non so che matematica...), e fa teoria dei giochi, ricerca operativa e pure lui /social chioce/.
+
+È molto famoso per questa un metodo di voto che ha inventato con [[https://en.wikipedia.org/wiki/Michel_Balinski][un matematico molto importante]], chiamato [[https://en.wikipedia.org/wiki/Majority_judgment][majority judgement]].
+Questo sembra una cosa interessante, ma non interessantissima - non molto complessa probabilmente, anche se non ho letto il libro loro.
+
+Comunque queste cose che presumono che tutti gli elettori siano razionali ecc non possono mai funzionare.
+Addirittura lui ha fatto un'estensione di questo sistema che permette di esprimere /incertezza/ sulla valutazione del candidato.
+Secondo me assolutamente nessuno userebbe questa incertezza.
+
 *** [[https://www.lamsade.dauphine.fr/~moretti/][Stefano Moretti]] ([[https://scholar.google.com/citations?hl=it&user=wQOB0vkAAAAJ&view_op=list_works&sortby=pubdate][scholar]])
 Scrivigli perché è molto interessante. Lavora abbastanza in teoria dei giochi (ha fatto tipo 2 dottorati in teoria dei giochi).
 Pubblica in giornali abbastanza sfigati sembra.
 Ha un approccio abbastanza formale e lavora con ordini.
-*** [[https://sites.google.com/site/julienlesca/home][Julien Lesca]] ([[https://scholar.google.com/citations?user=iNznokkAAAAJ&hl=fr][scholar]])
 
+*** [[https://sites.google.com/site/julienlesca/home][Julien Lesca]] ([[https://scholar.google.com/citations?user=iNznokkAAAAJ&hl=fr][scholar]])
 Interessante: è un informatico, e fa proprio cose di /decision science/ (se questo vuol dire qualche cosa).
 Fa pure cose con grafi e ottimizzazione. Solo che pubblica poco, questa cosa non si capisce tanto.
 
