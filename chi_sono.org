@@ -1,0 +1,194 @@
+#+OPTIONS: toc:nil
+
+* Cosa ho fatto
+
+In triennale, ho fatto matematica in Sapienza. Il corso era abbastanza
+teorico, ed ho preferito la matematica teorica a quella applicata, il
+discreto al continuo e l'algebra all'analisi. Ho fatto la tesi in
+topologia algebrica, ripercorrendo la dimostrazione di un teorema di
+punto fisso (Teorema di Lefschetz) tramite la teoria dell'omologia.
+
+Ho scoperto dopo che in triennale mi sono accuratamente tenuto lontano
+da praticamente tutto quello che potesse avere un utilizzo pratico:
+per esempio, ho fatto probabilità ma pochissima statistica, e non ho
+fatto praticamente niente di equazioni differenziali, né di
+ottimizzazione.
+
+Anche se il fascino della matematica è poi aumentato con il tempo,
+dopo aver finito la triennale mi sembrava decisamente troppo
+astratta. Mi sono quindi fermato ed ho lavorato un po' (poco). Ho
+fatto tipo 6 mesi di tirocinio per un azienda di consulenza in /data
+engineering/. Non è stata una cosa bella ma ho imparato un po' di
+cose, sia su come si lavora che un po' su come si gestiscono i dati.
+
+Finito il tirocinio, sono andato in Danimarca (a DTU, scuola tecnica,
+ingegneria) a fare una magistrale che si chiama /autonomous
+systems/. L'idea del corso sarebbe tipo una laurea in robotica ma meno
+legata all'hardware, quindi informatica e teoria del controllo: quando
+mi chiedono in che ingegneria sono laureato, ho imparato a dire una
+cosa del tipo /una via di mezzo tra informatica ed automatica/. In
+realtà non penso siano riusciti ad amalgamare le due cose per bene, e
+la definizione stessa di /autonomous system/ è sempre restata un po'
+vaga. Il grande vantaggio del corso è stata la libertà che si aveva
+nel scegliersi i corsi: sono riuscito a scegliermi corsi di
+informatica informatica anche di basso livello (il più informatica di
+tutti è stato uno in cui, per esempio, ci hanno fatto scrivere un
+compilatore in F# per un linguaggio inventato, e che mi è piaciuto
+molto), ma anche corsi di alto livello, machine learning fino a
+qualcosa di teoria del controllo ed ottimizzazione. Purtroppo la
+teoria del controllo (che pensavo prima mi interessasse molto) non
+sono mai riuscito ad apprezzarla a dovere, e probabilmente non l'ho
+mai capita a fondo. Questa cosa mi dispiace un po', ma non troppo.
+
+Nonostante il cambio rotta, la magistrale è andata parecchio bene
+(buoni voti, ero l'unico del corso a stare nel percorso di
+eccellenza), e mi sono potuto segnare per fare l'erasmus
+nell'università che volevo. Sono andato all'ETH, principalmente perché
+sembravano avere dei corsi molto interessanti. Forse fare l'erasmus in
+un'università molto seria non è la scelta più intelligente che uno
+possa fare, ma comunque è stato abbastanza carino. All'ETH il livello
+era moolto più alto che a DTU, ed i corsi ragionevolmente più
+interessanti. A parte un ultimo (abbastanza fallito) tentativo con la
+teoria del controllo, direi che i corsi che ho trovato più
+interessanti lì sono stati uno sulla teoria dei grafi ed uno di deep
+learning. Quello sui grafi è stato interessante perché è stato come un
+ritorno alla triennale: l'approccio era estremamente teorico,
+proposizione - dimostrazione - teorema - dimostrazione - commento, e
+mi era un po' mancato nel tempo a DTU, dove di teorico c'era veramente
+poco. Quello sul deep learning è stato interessante perché mi ha
+abbastanza permesso di capire più o meno di cosa si parla, dando una
+panoramica piuttosto chiara (dove i concetti sono semplici abbastanza,
+ma ho scoperto che molto spesso i concetti sono semplici abbastanza!).
+
+Infine, all'ETH mi sono messo un po' a cercare qualcuno che facesse
+applicazioni di scienze dure alle cose della società, seguendo tipo
+corsi vari per capire un po' come funzionava. Non ho capito molto, ma
+ho visto una lezione tenuta da uno (Nikolas Geroliminis, che era
+ospitato in una lezione di un tipo che si chiama Dirk Helbing, a
+quanto pare parecchio importante) che mi sembrava abbastanza
+interessante e dato che dovevo trovare una tesi per il semestre dopo,
+e non mi andava moltissimo di tornare a DTU (né in Danimarca), gli ho
+scritto per chiedergli se avrei potuto farla con lui. Fortunatamente,
+lui mi ha risposto ed aiutato parecchio ad organizzare la tesi, che ho
+quindi fatto nel suo gruppo all'EPFL, a Losanna.
+
+A Losanna, il professore non aveva qualcosa di preciso da farmi
+fare. Per fortuna ho incontrato (abbastanza per caso) un altro
+professore con il quale lui collabora, che si chiama André de Palma ed
+è un economista del traffico tra i più noti, fisico di formazione,
+oramai professore emerito a Parigi (ha abbastanza una certa età). A
+lui sono piaciuto parecchio da subito (probabilmente per la forte
+impronta che l'aver studiato matematica ha lasciato in me), e mi ha
+raccontato di un'idea che aveva in mente. Io gli ho suggerito come
+implementarla (che non era una cosa particolarmente geniale, ho
+semplicemente detto facciamo una MLE), e ci siamo messi a lavorare a
+questa idea, con l'aiuto di un postdoc che stava lì nel gruppo.
+
+La tesi è andata molto bene e ne è uscito un paper, che sembra abbiano
+tipo accettato qualche giorno fa (!!). Si tratta di invertire un
+modello per la scelta dell'orario al quale un gruppo di lavoratori
+parte di casa per andare a lavoro: il modello (sviluppato da de Palma
+un po' di anni fa) spiega come una persona sceglie l'orario di
+partenza dati dei parametri, noi proviamo a recuperare i parametri
+date le scelte. Non mi sembra un paper particolarmente brillante, in
+particolar modo perché è praticamente inapplicabile in qualsiasi
+scenario reale. Nonostante questo, a quanto pare i paper nei quali ci
+sono delle dimostrazioni e dei fatti teorici sono abbastanza
+apprezzati. In più ho implementato il modello in python usando JAX,
+che ho imparato, e sono abbastanza contento della parte numerica del
+lavoro, anche se sono sicurissimo che nessuno andrà a controllarsi
+l'implementazione, cosa che a quanto pare fanno solo nei giornali
+molto importanti. Per quello che ho capito il giornale al quale
+l'abbiamo mandato non è molto importante: non è tremendo (è Q1), ma ha
+un IF abbastanza basso. Dopo questa cosa de Palma mi ha offerto un
+dottorato da lui a Parigi. Non sono andato, per varie ragioni: il suo
+gruppo è oramai quasi estinto, e l'argomento mi interessa abbastanza
+poco, per quanto lui dica che /con la scusa/ di scrivere sul traffico
+si possa scrivere su tantissime cose, che probabilmente è pure una
+cosa vera.
+
+Quindi,
+* Cosa vorrei fare
+
+Penso (o spero) che il più grande impatto su come ragiono ce l'abbia
+avuto la triennale in matematica. Provo abbastanza gusto nel
+ragionamento rigoroso, soprattutto quando mi sembra sensato.
+Nonostante questo, non sono un /matematico matematico/: spesso è
+l'applicazione del ragionamento rigoroso che mi interessa, forse più
+del ragionamento in sé, ed ho abbastanza bisogno di avere un riscontro
+reale di quello che penso. La cosa (forse) buona a questo riguardo è
+che ho molta dimestichezza con l'informatica, e forse
+l'informatica può essere un buon mezzo per applicare ragionamenti
+rigorosi a scenari reali (forse).
+
+Penso che la domanda che logicamente segue questo sia /quali sono gli
+scenari reali/. A questo in realtà non riesco a rispondere bene, in
+maniera organica. So che le cose che mi interessano di più hanno a che
+fare con il sociale (nel senso di /la società/), che diventa quindi
+probabilmente economia. So però di non aver nessuna formazione in
+economia, che è tipo a cavallo tra scientifico ed umanistico, ed è
+tutto un po' un casino.
+
+Un problema poi è che io vorrei tenere una parte teorica (tipo
+collaborare con gente che ha un modo di pensare abbastanza rigoroso):
+dove sono stato lo scorso semestre, se qualcuno nel gruppo aveva un
+problema molto teorico io ero /quello bravo in matematica/, che gli
+poteva dare una mano. Quando avevo problemi io proprio non sapevo che
+fare. Mi piacerebbe invece essere io quello che ha problemi e lavora
+con qualcuno che gli possa mostrare come si fanno le cose teoriche.
+
+Per quello che ho capito, questo mix forse si trova nella ricerca
+operativa. Penso che però spesso la ricerca operativa abbia a che fare
+con il continuo, e, più in generale, con cose che non so: io
+sicuramente non posso fare ricerca in ottimizzazione, né in
+programmazione lineare (che non è nel continuo, ma è sempre qualcosa
+che non so), dato che so giusto di che si tratta.
+
+Invece penso che probabilmente non vorrei fare cose di machine
+learning: le applicazioni non mi attirano tantissimo, e la teoria mi
+sembra un campo non troppo bello dove fare ricerca, e nel quale
+d'altronde io non potrei entrare (probabilmente, per mancanza di
+competenze).
+
+Ultimamente penso un po' che forse invece una soluzione possa venire dalla
+teoria dei grafi: potenzialmente potrebbe essere un campo con una
+teoria interessante, che può avere applicazioni altrettanto
+interessanti. Ci sta comunque qualche problema con questo:
+innanzitutto vedo che moltissimi tra quelli che fanno ricerca (o
+almeno tra quelli che ho visto io) nell'ambito sono fisici, che spesso
+applicano metodi della fisica statistica a problemi sociali (o almeno
+questo mi sembra). La meccanica statistica mi sembra molto
+interessante ed ho provato a fare un corso in magistrale, ma al corso
+usavano come esempi banali cose di cui io ignoravo totalmente
+l'esistenza, ed ho capito che mi mancava un bel pezzo di fisica. Un
+po' ho recuperato, ma ancora mi manca qualcosa. Quelli che non sono
+fisici (o che non applicano metodi che io non conosco assolutamente)
+potrebbero essere interessanti. Il problema è che rischiano un po' (mi
+sembra) di finire a fare sentiment analysis, che non trovo super
+interessante di per sé, e non capisco mai quanto la ricerca che fanno
+sia effettivamente rilevante. Sono comunque piuttosto sicuro che
+dovrei informarmi meglio su queste cose.
+
+Una cosa che ho visto che della gente fa e che sembra abbastanza
+interessante è quella in [[https://psycnet.apa.org/fulltext/2025-24581-001.html][questo paper]] (Dalege, J., Galesic, M., &
+Olsson, H. (2025). Networks of beliefs: An integrative theory of
+individual- and social-level belief dynamics. /Psychological Review,
+132(2)/, 253–290). Loro stanno però abbastanza nella psicologia,
+mentre a me interesserebbe forse qualcosa ad una scala un po' più
+ampia. Non so se questa cosa esiste né se sia possibile, e soprattutto
+non sono sicuro che leggendo per bene le cose scritte lì non si
+escluda una cosa di questo tipo. Una cosa che forse mi piacerebbe (ma
+sto puramente nel gusto estetico, dato che non so proprio di cosa sto
+parlando) potrebbe essere fare, in qualche modo, un ragionamento su
+cosa succede quando in una rete di questo tipo si cambia scala, e come
+le interazioni tra gruppi di persone siano diverse da quelle tra
+singoli.  Il problema è che questa cosa potrebbe essere sia banale e
+molto esplorata che impossibile da studiare. Non avendo mai studiato
+cose di questo tipo non lo so proprio. La cosa che mi fa paura è che
+facendo troppo di testa mia finisca a fare cose molto poco
+rilevanti. Penso che questa sia una paura abbastanza fondata.
+
+Infine, penso in realtà di essere abbastanza flessibile. Ho tutta una
+serie di limiti e preferenze, ma penso di poterli ignorare senza
+troppi problemi, anche perché quello che mi piace ed interessa può
+cambiare su base settimanale senza tanti problemi.
