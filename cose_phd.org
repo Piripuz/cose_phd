@@ -72,6 +72,7 @@ Professori abilitati ad avere dottorati sono [[https://ecole-doctorale.dauphine.
 ** [[https://www.lamsade.dauphine.fr/en/about-us/lamsade-in-brief.html][LAMSADE (Laboratoire d'Analyse et Modélisation des Systèmes et Aide à la Décision)]]
 Questo è in origine centro di ricerca operativa, si è esteso a /aiuto alla decisione/.
 Si possono trovare tante cose mi sa qui.
+*** TODO André Rossi
 *** [[https://www.lamsade.dauphine.fr/~lang/][Jérôme Lang]] ([[https://scholar.google.com/citations?hl=fr&user=cNgZXNcAAAAJ&view_op=list_works&sortby=pubdate][scholar]], [[https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Lang][wikipedia]])
 Ha taaante citazioni (h-index tipo 67), anche se è solo /directeur de recherche/.
 
