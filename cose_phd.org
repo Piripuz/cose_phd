@@ -175,14 +175,18 @@ Non mi svolterà cose, ma magari ha contatti ecc.
 * [[https://www.santannapisa.it/it][Sant'Anna]]
 Il PhD si divide in 2: uno [[https://www.santannapisa.it/it/formazione/international-doctoral-programme-economics][in economia]], con scadenza il 15 aprile, ed [[https://www.santannapisa.it/it/formazione/phd][i restanti]], con scadenza 15 maggio.
 
+A quanto pare questi sono quelli forti forti in economia dell'innovazione.
+
 Quelli che scadono a maggio non sembrano molto interessanti, mentre quello in economia sembra una cosa figa.
 Sarebbe super saggio parlare con qualcuno di economia. Il /Faculty Board/ (qualunque cosa voglia dire) sta [[https://www.santannapisa.it/it/coordinator-and-faculty-board-phd-economics][qui]].
+** [[https://www.cafed.santannapisa.it/~giulio/][Giulio Bottazzi]]
+Moolto carino!! È un fisico, il problema è che fa un po' finanza. Ma dice /economic geography/ (che è molto figo, lo scrive [[https://www.santannapisa.it/it/giulio-bottazzi][qui]]) e tante altre cose fighe.
 ** [[https://sites.google.com/view/giorgiofagiolo/home][Giorgio Fagiolo]] [[https://scholar.google.it/citations?user=B7N-yQIAAAAJ][(scholar)]]
-Sembra uno importante, ma non ha posizioni particolari (è ordinario solo).
+Sembra uno importante, ma non ha posizioni particolari (è ordinario comunque).
 
 La ricerca sembra parecchio interesante, fa molto numerico. È tipo statistico.
 
-Ha lavorato a BETA magari conosce Natalie.
+Ha lavorato a BETA magari conosce Nathalie (in realtà non so, BETA sembra una cosa grande proprio).
 
 ** [[https://sites.google.com/view/alessiomoneta][Alessio Moneta]] [[https://scholar.google.it/citations?user=ORWa37UAAAAJ&hl=it][(scholar)]]
 Pure lui sembra strafigo.
@@ -190,3 +194,29 @@ Pure lui sembra strafigo.
 È il responsabile del programma di PhD (che può essere un pro o un contro per scrivergli, sarà meno curioso ma più pertinente forse.
 
 È filosofo (??), e fa cose super tecniche, causal inference.
+
+** [[https://www.santannapisa.it/it/andrea-roventini][Andrea Roventini]]
+Lui mi sa che è abbastanza economista classico. Dice però che i suoi interessi sono tipo
+#+begin_quote
+complex system analysis, agent-based computational economics...
+#+end_quote
+e poi tutte cose normali.
+
+Ha scritto [[https://www.cambridge.org/core/elements/abs/agentbased-macroeconomics/B7016A5CEE59694A420AF51A1347F00E][un libro carino]] ed [[https://www.sciencedirect.com/science/article/abs/pii/S016518891000148X][un paper]] ([[https://d1wqtxts1xzle7.cloudfront.net/44382174/2008-21-libre.pdf?1459761754=&response-content-disposition=inline%3B+filename%3DSchumpeter_meeting_Keynes_A_policy_frien.pdf&Expires=1774441495&Signature=RMk1zWbIHnkgxQOoqEMCXKbCwqAe~qsOWhL5GGTwUWmPDkIUdmnt~~JBqmOWvdVLULI6GF5rJRpOsUTdqeQB~jCqyUULSXd1IGkBttuu9WENQug574YzjvmYBvTfUqy-aw~3ACttqF4eZl6~H0JBe8c0JunXPSon6GEKateMLjcIUMZDrllOrtxg6ykcZiPCA0dxCQJLP9xBAibRcC-gYG-t9lh~eMJ3HQvZrLpBl1KWno8oWJuYeMcUdFgbBZTJivhuxLSkPhYy5H1ISEOZ30SybflPJa7MgS~rppWtl-zCMW0nd6L2LwufKw3l-qgtjQal~SRuwKJQOwZ7E3HfUg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA][pdf]]) con [[https://www.santannapisa.it/en/giovanni-dosi][Giovanni Dosi]] (che è tipo uno suuuper importante a Sant'Anna) su
+agent-based models per macroeconomia. Interessante.
+
+** [[https://www.santannapisa.it/it/daniele-giachini][Daniele Giachini]]
+Lui non è troppo importante ed è quasi economista classico. Nonostante questo fa molte cose numeriche e collabora con gente figa (tipo [[Andrea Vandin]] in [[https://arxiv.org/pdf/2509.10977][questo paper]])
+
+Una cosa che può sembrare molto figa è tipo [[https://arxiv.org/pdf/2507.13767][questo paper su Opinion Dynamics]]:
+#+begin_quote
+In this work we introduce a new model of lobbying-driven opinion
+influence within opinion dynamics, where lobbyists can implement complex strategies and are characterised by a finite budget.
+#+end_quote
+
+* IMT
+
+** Andrea Vandin
+Scrivigli che è interessante. Fa informatica teorica ma poi applica pure in qualche modo. [[https://arxiv.org/pdf/2601.10224][Qui]] un esempio di come applica.
+
+Interessante che faceva compiler construction prima di Alceste Scalas.
