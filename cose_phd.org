@@ -179,22 +179,30 @@ A quanto pare questi sono quelli forti forti in economia dell'innovazione.
 
 Quelli che scadono a maggio non sembrano molto interessanti, mentre quello in economia sembra una cosa figa.
 Sarebbe super saggio parlare con qualcuno di economia. Il /Faculty Board/ (qualunque cosa voglia dire) sta [[https://www.santannapisa.it/it/coordinator-and-faculty-board-phd-economics][qui]].
-** [[https://www.cafed.santannapisa.it/~giulio/][Giulio Bottazzi]]
-Moolto carino!! È un fisico, il problema è che fa un po' finanza. Ma dice /economic geography/ (che è molto figo, lo scrive [[https://www.santannapisa.it/it/giulio-bottazzi][qui]]) e tante altre cose fighe.
-** [[https://sites.google.com/view/giorgiofagiolo/home][Giorgio Fagiolo]] [[https://scholar.google.it/citations?user=B7N-yQIAAAAJ][(scholar)]]
-Sembra uno importante, ma non ha posizioni particolari (è ordinario comunque).
-
-La ricerca sembra parecchio interesante, fa molto numerico. È tipo statistico.
-
-Ha lavorato a BETA magari conosce Nathalie (in realtà non so, BETA sembra una cosa grande proprio).
-
 ** [[https://sites.google.com/view/alessiomoneta][Alessio Moneta]] [[https://scholar.google.it/citations?user=ORWa37UAAAAJ&hl=it][(scholar)]]
-Pure lui sembra strafigo.
+Lui sembra forse il più figo. Lavora molto su causalità, fa causal inference.
 
 È il responsabile del programma di PhD (che può essere un pro o un contro per scrivergli, sarà meno curioso ma più pertinente forse.
 
-È filosofo (??), e fa cose super tecniche, causal inference.
+È filosofo (??), e fa cose super tecniche.
 
+** [[https://sites.google.com/view/giorgiofagiolo/home][Giorgio Fagiolo]] [[https://scholar.google.it/citations?user=B7N-yQIAAAAJ][(scholar)]]
+Sembra uno importante, ma non ha posizioni particolari (è ordinario comunque).
+
+La ricerca sembra parecchio interesante, fa molto numerico. È tipo statistico. Anche lui fa parecchio finanza, più che modellizzazione economica.
+
+Ha lavorato a BETA magari conosce Nathalie (in realtà non so, BETA sembra una cosa grande proprio).
+
+Suo paper più citato, [[https://www.iris.sssup.it/bitstream/11382/103287/1/SCIENCE_2009.pdf][Economic Networks: The New Challenges]], è fatto con [[https://www.unibocconi.it/en/faculty/fernando-vega-redondo][Fernando Vega-Redondo]], che mi hanno indicato a Siviglia!
+
+** [[https://www.cafed.santannapisa.it/~giulio/][Giulio Bottazzi]] [[https://scholar.google.com/citations?user=WJaCqaQAAAAJ&hl=en][(scholar)]]
+È un fisico, il problema è che fa abbastanza finanza. Ma dice /economic geography/ (che è molto figo, lo scrive [[https://www.santannapisa.it/it/giulio-bottazzi][qui]]) e tante altre cose fighe.
+
+Probabilmente fa un po' troppa finanza.
+
+Cosa interessante è che organizza, assieme a [[*\[\[https://www.santannapisa.it/it/daniele-giachini\]\[Daniele Giachini\]\]][Daniele Giachini]], la [[https://indico.sns.it/event/105/][Summer School of Mathematics for Economic and Social Sciences]].
+
+Sembra sia uno molto serio a livello di matematica, magari sono un po' meno interessanti le cose che fa.
 ** [[https://www.santannapisa.it/it/andrea-roventini][Andrea Roventini]]
 Lui mi sa che è abbastanza economista classico. Dice però che i suoi interessi sono tipo
 #+begin_quote
