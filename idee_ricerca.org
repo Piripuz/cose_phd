@@ -1,0 +1,65 @@
+#+STARTUP: latexpreview
+[[https://www.lem.sssup.it/WPLem/files/2023-18.pdf][Qui]] c'è il paper di Bottazzi
+
+* Che fanno
+** Arrow-Debreu economies
+In pratica è un modello (molto dummy) di economia reale. Loro ci giocano su, dicono /e se.../. È ben specificato, ma fa assunzioni piuttosto irrealistiche.
+È modello di equilibrio generale.
+
+** Bayesian agents
+Sono agenti che imparano tramite la legge di Bayes:
+hanno un modello, che aggiornano in funzione dei dati osservati.
+
+*** Più dettagli:
+In pratica te hai un modello della realtà (dei dati che osservi). Questo modello non è il prior, ma la likelihood.
+
+Considera, per esempio, che io sappia che i dati seguiranno una distribuzione binomiale: pmf sarà \(f(k, n, p) = \binom{n}{k}p^k(1-p)^{{n-k}}}\).
+Nota che qui \(n, k\) sono osservati (su $n$ tiri, $k$ sono positivi), mentre $p$ è un parametro.
+
+Allora dico ok, ho un belief sul parametro $p$. Questo belief lo scelgo possibilmente in una distribuzione [[https://en.wikipedia.org/wiki/Conjugate_prior][coniugata]]:
+una distribuzione parametrica che, se moltiplicata per la likelihood, mi darà la stessa distribuzione con un aggiornamento dei parametri.
+#+begin_comment
+Questo è meglio formalizzato dicendo /famiglia di distribuzioni/, ma pensarla parametrica è più terra terra e funziona.
+#+end_comment
+
+Questo è tutto. Vedo i dati, /aggiorno i parametri/ (nel caso di conjugate prior, altrimenti ho una nuova distribuzione), e posso rivedere i dati.
+Ma come cambia l'aggiornamento dei parametri se vedo meno o più dati? Probabilmente, la likelihood sarà in quel caso più concentrata (sempre, se il mio modello ha senso).
+
+*** TODO Qualche domanda su questo:
+- Dove vedono il dato? Questo ha probabilmente a che fare con [[*Arrow-Debreu economies][Arrow-Debreu economies]].
+
+** Mispecified models
+Sono agenti che imparano, ma su una distribuzione di probabilità diversa da quella reale.
+
+Per capire meglio cosa questo vuol dire, [[*\[\[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf\]\[Under-reaction: Irrational behavior or robust response to model misspecification?\]\]:][questo paper]] dice
+#+begin_quote
+In misspecified learning settings,
+the true model is not in the prior support, and it is never learned because the agent
+subjectively believes it to be impossible.
+#+end_quote
+
+*** TODO ma che vuol dire /prior support/?
+Praticamente un prior viene moltiplicato per una sorta di distribuzione osservata per ottenere il posterior. Ma da dove viene questa distribuzione osservata?
+
+Mi viene in mente che il posterior di un qualche valore (del parametro) non potrà mai essere != 0 se il prior è 0.
+
+*** [[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf][Under-reaction: Irrational behavior or robust response to model misspecification?]]:
+Poco citato, ma importante per progetto.
+
+Dice che se l'agente è under-reactive allora non perde tutta la sua ricchezza contro un agente bayesiano,
+ma nel caso in cui i modelli siano mispecified è quello bayesiano che perde tutta la ricchezza contro il under-reactive.
+
+È scritto proprio brutto. O almeno usa notazioni stranissime.
+
+*** Dove si applica questa cosa?
+Secondo [[*\[\[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf\]\[Under-reaction: Irrational behavior or robust response to model misspecification?\]\]:][il paragrafo precedente]], in portfolio selection, qualunque cosa voglia dire.
+
+Apparentemente, chi deve fare questo portfolio selection non ha modelli veri sul problema che affrontano, e lui dice che imparare in modo under-reactive
+aiuta a fare una scelta più robusta ad inevitabili mispecification del modello.
+
+* Idee
+** America
+È tutto colpa dell'America? Si può trovare correlazione tra indicatori che descrivono colonizzazione culturale e sviluppo economico?
+Forse questo si può misurare anche calcolando quanta parte della liingua corrente è influenzata dalla lingua colonizzante.
+
+Probabilmente ci stanno un sacco di lavori su questo. Ma come funziona? Mi aspetterei tipo aumento di ricchezza all'inizio, ma stagnazione sul lungo termine (?).
