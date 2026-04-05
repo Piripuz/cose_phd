@@ -13,8 +13,8 @@ hanno un modello, che aggiornano in funzione dei dati osservati.
 *** Più dettagli:
 In pratica te hai un modello della realtà (dei dati che osservi). Questo modello non è il prior, ma la likelihood.
 
-Considera, per esempio, che io sappia che i dati seguiranno una distribuzione binomiale: pmf sarà \(f(k, n, p) = \binom{n}{k}p^k(1-p)^{{n-k}}}\).
-Nota che qui \(n, k\) sono osservati (su $n$ tiri, $k$ sono positivi), mentre $p$ è un parametro.
+Considera, per esempio, che io sappia che i dati seguiranno una distribuzione binomiale: pmf sarà $f(k, n, p) = \binom{n}{k}p^k(1-p)^{{n-k}}}$.
+Nota che qui $n, k$ sono osservati (su $n$ tiri, $k$ sono positivi), mentre $p$ è un parametro.
 
 Allora dico ok, ho un belief sul parametro $p$. Questo belief lo scelgo possibilmente in una distribuzione [[https://en.wikipedia.org/wiki/Conjugate_prior][coniugata]]:
 una distribuzione parametrica che, se moltiplicata per la likelihood, mi darà la stessa distribuzione con un aggiornamento dei parametri.
