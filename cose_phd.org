@@ -222,7 +222,28 @@ In this work we introduce a new model of lobbying-driven opinion
 influence within opinion dynamics, where lobbyists can implement complex strategies and are characterised by a finite budget.
 #+end_quote
 
-* IMT
+* [[https://www.imtlucca.it/homepage][IMT]]
+In pratica ci sono 2 dottorati interessanti, uno di economia ([[https://eads.imtlucca.it/][EADS, Economics, Analytics and Decision Sciences]]) ed uno di /system science/ ([[https://sys.imtlucca.it/sysimt-school][Sys]]) (qualunque cosa voglia dire...).
+
+Economia scade il <2026-03-06 ven>, system science il <2026-05-26 mar>.
+
+** [[https://eads.imtlucca.it/][EADS]] ([[https://www.imtlucca.it/sites/default/files/2026-02/PhD%20call%20for%20applications%2026-27.pdf][bando]])
+
+*** [[https://sites.google.com/site/enniobilancini/home][Ennio Bilancini]] [[https://scholar.google.com/citations?hl=en&user=PegYsyoAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
+È il coordinatore del phd. È piuttosto interessante: dice che fa /evolutionary game theory/ e /behavioural economics/.
+In realtà fa tutte cose strane, apparentemente non troppo connesse. Che potrebbe essere /behavioural economics/ in realtà.
+
+Sembra piuttosto lanciato: ha scritto da poco (2024) un paper con *Acemoglu* (???) ed un nature qualcosa.
+
+[[https://drive.google.com/file/d/1jmJ6ZMkFGTadJVVaBeinJ6DnKnkcqDtm/view][Sul suo sito]] ha tutti paper in pdf.
+
+Vediamo esempi:
+
+**** [[https://drive.google.com/file/d/1jmJ6ZMkFGTadJVVaBeinJ6DnKnkcqDtm/view][Strategy Assortativity and the Evolution of Parochialism]]
+Interessante: studia una società in cui la gente collabora o non collabora. È tipo un prisoner's dilemma sociale.
+In generale, mi sa che è un prisoner's dilemma sociale tutta la letteratura su questo /parochialism/.
+
+** [[https://sys.imtlucca.it/sysimt-school][Sys]] 
 
 ** Andrea Vandin
 Scrivigli che è interessante. Fa informatica teorica ma poi applica pure in qualche modo. [[https://arxiv.org/pdf/2601.10224][Qui]] un esempio di come applica.
