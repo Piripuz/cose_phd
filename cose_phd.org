@@ -66,13 +66,6 @@ Fa ogni paper del gruppo. Ha fatto fortuna con covid e disinformazione.
 
 In particolare, [[https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0uPPZ5sAAAAJ&sortby=pubdate&citation_for_view=0uPPZ5sAAAAJ:B3FOqHPlNUQC][qui]] esprimono quanto una società è /creditworth/ tramite le sue connessioni,
 trattando come un valore il fatto di aver tante connessioni (tipo), e la cosa è che ci riescono!!
-* Ca' Foscari
-** [[https://www.unive.it/data/11644/][Research Institute for Complexity]]
-*** [[https://www.guidocaldarelli.com/][Guido Caldarelli]] ([[https://scholar.google.com/citations?user=RZid9X8AAAAJ&hl=it][scholar]], [[https://en.wikipedia.org/wiki/Guido_Caldarelli][wikipedia]])
-Lui super importante. È fisico, ha studiato a Sapienza, PhD a SISSA, prof a IMT.
-È direttore dell'[[https://www.isc.cnr.it/][istituto dei sistemi complessi al CNR]].
-È molto interessante per il mix tra teorico ed applicato, che sembra giusto.
-Il problema è che non posso scrivergli haha. Dovrebbe stare a Roma (CNR) però.
 * Dauphine
 Professori abilitati ad avere dottorati sono [[https://ecole-doctorale.dauphine.psl.eu/candidature/trouver-une-direction-de-these][qui]].
 ** [[https://www.lamsade.dauphine.fr/en/about-us/lamsade-in-brief.html][LAMSADE (Laboratoire d'Analyse et Modélisation des Systèmes et Aide à la Décision)]]
@@ -255,3 +248,55 @@ In generale, mi sa che è un prisoner's dilemma sociale tutta la letteratura su 
 Scrivigli che è interessante. Fa informatica teorica ma poi applica pure in qualche modo. [[https://arxiv.org/pdf/2601.10224][Qui]] un esempio di come applica.
 
 Interessante che faceva compiler construction prima di Alceste Scalas.
+
+* Ca' Foscari [[https://www.unive.it/web/it/259/bando-annuale][(bando)]]
+Hanno PhD che scade il 6 maggio.
+Direttore di PhD è coautore di [[*\[\[https://www.cafed.santannapisa.it/~giulio/\]\[Giulio Bottazzi\]\] \[\[https://scholar.google.com/citations?user=WJaCqaQAAAAJ&hl=en\]\[(scholar)\]\]][Bottazzi]], ma c'è anche altro di interessante.
+
+** Direttori PhD
+*** [[https://pdedindo.github.io/index.html][Pietro Dindo]] [[https://scholar.google.com/citations?hl=en&user=HxKn6dcAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
+Direttore del programma, nonché coautore di [[*\[\[https://www.cafed.santannapisa.it/~giulio/\]\[Giulio Bottazzi\]\] \[\[https://scholar.google.com/citations?user=WJaCqaQAAAAJ&hl=en\]\[(scholar)\]\]][Bottazzi]].
+
+Fa sempre modellizzazione, ma mi sembra un po' utopistica:
+ad es, in [[https://iris.unive.it/bitstream/10278/5100127/1/ssrn-4786867.pdf][questo paper]], tratta l'/acculturazione/ come una cosa super precisa, e sviluppa un framework teorico per studiarla.
+Mi sembrerebbe abbastanza interessante, se effettivamente si riuscissero a modellare fenomeni reali così. Ma mi sembra tutto un po' troppo astratto per farlo!
+
+Sembra essere l'esatto opposto del claim di Maria che l'economia è una scienza sociale.
+*** [[https://sites.google.com/site/lorenzobastianello/cv?authuser=0][Lorenzo Bastianello]]
+È statistico, fa decision theory. PhD in /applied mathematics/, secondo lui.
+#+begin_center
+Per /decision theory/, [[https://media.longnow.org/files/2/REVIVE/Advances%20in%20prospect%20theory.pdf][questo paper]] sembra importantissimo (spoiler lo è), e molto interessante!
+#+end_center
+
+Fa cose molto interessanti, anche se non ne capisco benissimo le applicazioni:
+in [[https://arxiv.org/pdf/2602.06672][questo working paper]], cerca topologie che rendano continue determinate applicazioni tipo.
+Pure [[https://drive.google.com/file/d/1oGkgI3LJRgDu5UAyOZmp7kfWzyYdVkM0/view][questo]] è abbastanza interessante: praticamente fanno cose in utility theory (come un individuo percepisce una vincita o una perdita),
+studiando casi di questa [[https://en.wikipedia.org/wiki/Cumulative_prospect_theory][Comulative Prospect Theory]].
+
+Collabora con questo [[https://sites.google.com/view/jjoc/home?authuser=0][Jaime Orillo]] che sta in Brasile ma è interessante - è un matematico e fa tipo topologia in scienze sociali (??)
+
+*** [[https://mlicalzi.github.io/][Marco Li Calzi]] [[https://scholar.google.com/citations?hl=it&user=BRTQX8gAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
+È economista, ma fa sostanzialmente matematica applicata a scienze sociali.
+In realtà, il suo campo è /decision sciences/. Ha avuto visiting sia a IMT che a Dauphine.
+
+Il suo paper più recente è abbastanza interessante, ho scritto delle idee [[file:idee_ricerca/li_calzi_grading/grading.org::+bibliography: grading.bib][qui]].
+
+Sembra non faccia econometria praticamente. Interessante direi.
+
+*** [[https://sites.google.com/view/robertocasarin][Roberto Casarin]] [[https://scholar.google.com/citations?hl=it&user=5bEU2N4AAAAJ][(scholar)]]
+Interessante, anche se le applicazioni sue sono principalmente finanza.
+Ma sempre che descrive il mondo comunque se vedi!
+
+È molto serio in matematica, fa tutte cose tipo all'intersezione tra Catene di Markov e Analisi Bayesiana (che vuol dire, molto statistica).
+Se vedi però sono cose piuttosto interessanti.
+Fa molto ad esempio questi *Markov Switching Models*.
+
+Probabilmente gli posso scrivere che se dovessi chiedere di nuovo la tesi magistrale gli chiederei quello:
+è molto interessante, ma scrivere un progetto su cose sue lo vedo un po' tosto.
+** [[https://www.unive.it/data/11644/][Research Institute for Complexity]]
+*** [[https://www.guidocaldarelli.com/][Guido Caldarelli]] ([[https://scholar.google.com/citations?user=RZid9X8AAAAJ&hl=it][scholar]], [[https://en.wikipedia.org/wiki/Guido_Caldarelli][wikipedia]])
+Lui super importante. È fisico, ha studiato a Sapienza, PhD a SISSA, prof a IMT.
+È direttore dell'[[https://www.isc.cnr.it/][istituto dei sistemi complessi al CNR]].
+È molto interessante per il mix tra teorico ed applicato, che sembra giusto.
+Il problema è che non posso scrivergli haha. Dovrebbe stare a Roma (CNR) però.
+* [[https://www.ssmeridionale.it/modeling-and-engineering-risk-and-complexity-merc-2/][Scuola Superiore Meridionale]]
