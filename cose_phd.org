@@ -243,6 +243,41 @@ Interessante: studia una società in cui la gente collabora o non collabora. È 
 In generale, mi sa che è un prisoner's dilemma sociale tutta la letteratura su questo /parochialism/.
 
 ** [[https://sys.imtlucca.it/sysimt-school][Sys]] 
+I professori (di tutto il PhD) sono [[https://sys.imtlucca.it/faculty][qui]]. Il coordinatore, [[http://cse.lab.imtlucca.it/~bemporad/][Alberto Bemporad]], nemmeno lo scrivo perché è proprio uno che fa controllo controllo. Ha un h-index assurdo (92???).
+
+Sys ha 4 tracce. Quella che mi interesserebbe è [[https://sys.imtlucca.it/program-overview/complex-systems-and-networks-cn][Complex Systems and Networks]], che corrisponde al gruppo di ricerca [[https://networks.imtlucca.it/][NETWORKS]].
+I professori del gruppo sono [[https://networks.imtlucca.it/people][qui]], nel board del PhD ci sono, tra quelli, tutti e soli quelli al primo gruppo (/Professors/, senza /assistant/).
+
+Sono tutti fisici, ma ad es [[*\[\[https://www.imtlucca.it/anna.gallo\]\[Anna Gallo\]\] \[\[https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en\]\[(scholar)\]\]][Anna Gallo]] è matematica, quindi non disprezzano.
+Disprezzeranno ingegneri, ma vabbè.
+
+*** [[https://www.imtlucca.it/anna.gallo][Anna Gallo]] [[https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en][(scholar)]]
+Moolto interessante, ma è una studentessa. Ci sono capitato 6000 volte, penso faccia cose proprio interessanti.
+È matematica (triennale, magistrale).
+
+*** [[https://networks.imtlucca.it/people/tiziano][Tiziano Squartini]] [[https://scholar.google.com/citations?hl=en&user=-tMSEmwAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
+Fisico, fino al PhD. È stato postdoc di [[*\[\[https://networks.imtlucca.it/people/diego\]\[Diego Garlaschelli\]\] \[\[https://scholar.google.it/citations?user=G-WPCrMAAAAJ&hl=it&authuser=1\]\[(scholar)\]\]][Garlaschelli]].
+Lavora praticamente solo su reti, il suo sito dice
+#+begin_quote
+His research interests lie at the intersection between statistical physics and graph theory, both on the theoretical and the applied side
+#+end_quote
+
+Due punti di contatto interessanti, piuttosto con tesi triennale che altro:
+- [[https://arxiv.org/pdf/2603.12417][Questo paper]], dove usa le connessioni di una società come misura della sua /credit-worthiness/.
+  Qui il contatto non è che ci sia più di tanto, ma dicono che fanno /certificazioni topologiche/, che in realtà è abbastanza vero.
+- [[https://www.nature.com/articles/s42005-025-02182-2][Qui]], considerano, al posto di reti, ipergrafi (nei quali gli edges sono in realtà elementi dell'insieme delle parti).
+  Cosa interessante è che dice che complessi simpliciali sono spesso utilizzati per rappresentare strutture più ricche delle reti normali.
+  Io di complessi simpliciali me ne intendo! (più o meno). In realtà non fanno che tipo generalizzare la creazione di grafi random.
+  #+begin_comment
+  La differenza tra complesso simpliciale e ipergrafo penso sia semplicemente che in un complesso simpliciale,
+   se il simplesso ABC è presente, lo sono anche i simplessi AB, BC, AC. Negli ipergrafi no.
+#+end_comment
+
+
+*** [[https://networks.imtlucca.it/people/diego][Diego Garlaschelli]] [[https://scholar.google.it/citations?user=G-WPCrMAAAAJ&hl=it&authuser=1][(scholar)]]
+Lui è il direttore del gruppo. È abbastanza il pezzo forte.
+
+Anche lui fisico, sembra lavori su reti o su random graph models.
 
 ** Andrea Vandin
 Scrivigli che è interessante. Fa informatica teorica ma poi applica pure in qualche modo. [[https://arxiv.org/pdf/2601.10224][Qui]] un esempio di come applica.
@@ -262,7 +297,7 @@ ad es, in [[https://iris.unive.it/bitstream/10278/5100127/1/ssrn-4786867.pdf][qu
 Mi sembrerebbe abbastanza interessante, se effettivamente si riuscissero a modellare fenomeni reali così. Ma mi sembra tutto un po' troppo astratto per farlo!
 
 Sembra essere l'esatto opposto del claim di Maria che l'economia è una scienza sociale.
-*** [[https://sites.google.com/site/lorenzobastianello/cv?authuser=0][Lorenzo Bastianello]]
+*** [[https://sites.google.com/site/lorenzobastianello/][Lorenzo Bastianello]]
 È statistico, fa decision theory. PhD in /applied mathematics/, secondo lui.
 #+begin_center
 Per /decision theory/, [[https://media.longnow.org/files/2/REVIVE/Advances%20in%20prospect%20theory.pdf][questo paper]] sembra importantissimo (spoiler lo è), e molto interessante!
