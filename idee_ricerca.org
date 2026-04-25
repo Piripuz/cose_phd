@@ -24,12 +24,16 @@ Questo è meglio formalizzato dicendo /famiglia di distribuzioni/, ma pensarla p
 
 Questo è tutto. Vedo i dati, /aggiorno i parametri/ (nel caso di conjugate prior, altrimenti ho una nuova distribuzione), e posso rivedere i dati.
 Ma come cambia l'aggiornamento dei parametri se vedo meno o più dati? Probabilmente, la likelihood sarà in quel caso più concentrata (sempre, se il mio modello ha senso).
+Pensa, per esempio, che nel caso di binomiale non vedo una singola estrazione, ma vedo una coppia di $n, k$:
+una serie di $n$ estrazioni con $k$ successi.
 
 *** TODO Qualche domanda su questo:
 - Dove vedono il dato? Questo ha probabilmente a che fare con [[*Arrow-Debreu economies][Arrow-Debreu economies]].
 
 ** Mispecified models
 Sono agenti che imparano, ma su una distribuzione di probabilità diversa da quella reale.
+
+Per esempio, lo sono agenti che sono over-reactive (danno troppo peso ai dati) o [[*Under-reactive agents][under-reactive]] (ne danno troppo poco).
 
 Per capire meglio cosa questo vuol dire, [[*\[\[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf\]\[Under-reaction: Irrational behavior or robust response to model misspecification?\]\]:][questo paper]] dice
 #+begin_quote
@@ -38,10 +42,44 @@ the true model is not in the prior support, and it is never learned because the 
 subjectively believes it to be impossible.
 #+end_quote
 
-*** TODO ma che vuol dire /prior support/?
-Praticamente un prior viene moltiplicato per una sorta di distribuzione osservata per ottenere il posterior. Ma da dove viene questa distribuzione osservata?
+Penso che questo la metta in modo più complicato di quanto effettivamente sia:
+penso lui dica che per nessun valore del parametro il modello può diventare quello reale
+(ad esempio, penso che i dati siano distribuiti normalmente attorno ad una media $\mu$ ma i dati che osservo sono distribuiti su due normali).
+Quindi il vero modello non è nel /prior support/, ma il problema non è del prior quanto proprio del modello.
 
-Mi viene in mente che il posterior di un qualche valore (del parametro) non potrà mai essere != 0 se il prior è 0.
+#+begin_comment
+Io penso sia così, ma in realtà se pensi ad un caso in cui il prior support è finito (intendo che il parametro ha probabilità zero di assumere un certo valore)
+allora anche in quel caso non si imparerà mai il vero parametro, nonostante il modello possa essere giusto (intendo che moltiplicare un numero per zero dà sempre zero,
+la probabilità che il parametro assuma quel valore resta nulla).
+
+Questo mi sembra un altro caso possibile, nel quale effettivamente /the true model is not in the prior support/,
+ma comunque caso distinto da quello precedente.
+#+end_comment
+
+In realtà, ci sono almeno 2 tipi di questa mispecification!
+
+*** Parametric misspecification
+Cito, dal [[https://www.lem.sssup.it/WPLem/files/2023-18.pdf][paper di Bottazzi]]:
+#+begin_quote
+The true probability measure belongs to the same class of probabilistic models
+the agents use to learn, but with different parameter values
+#+end_quote
+
+Quindi il parametro corretto non sta nel /prior support/, nel senso che esiste ma non sta nel supporto (mi sembra di capire).
+*** Structural misspecification
+Ancora, [[https://www.lem.sssup.it/WPLem/files/2023-18.pdf][stesso paper]]:
+#+begin_quote
+The true probability measure has a more complex probabilistic structure than the models agents use to learn.
+#+end_quote
+
+Come esempio, considera
+#+begin_quote
+A Markov true probability measure and i.i.d. models
+#+end_quote
+
+Questo potrebbe essere più complicato di come la vedo io: lui dice proprio che la struttura è più ricca,
+ossia che la distribuzione degli stati al giorno $t$ dipende dallo stato assunto al giorno $t - 1$ invece che essere indipendenti.
+Non sembra essere semplicemente una cosa di parametri.
 
 *** [[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf][Under-reaction: Irrational behavior or robust response to model misspecification?]]:
 Poco citato, ma importante per progetto.
@@ -51,14 +89,64 @@ ma nel caso in cui i modelli siano mispecified è quello bayesiano che perde tut
 
 È scritto proprio brutto. O almeno usa notazioni stranissime.
 
+**** Under-reactive agents
+Sono agenti che non aggiornano i coefficienti 
+
+Una cosa interessante è che le persone probabilmente lo sono:
+#+begin_quote
+Experimentally, his beliefs are consistent with
+under-inference, conservatism bias, and positive prior bias, which are predominant
+biases in the population ([[https://www.nber.org/system/files/working_papers/w25200/w25200.pdf][Benjamin 2019]]).
+#+end_quote
+
 *** Dove si applica questa cosa?
 Secondo [[*\[\[https://cris.unibo.it/retrieve/7a0c556f-2986-40c8-8599-0abab1e35479/s00199-025-01677-x.pdf\]\[Under-reaction: Irrational behavior or robust response to model misspecification?\]\]:][il paragrafo precedente]], in portfolio selection, qualunque cosa voglia dire.
 
 Apparentemente, chi deve fare questo portfolio selection non ha modelli veri sul problema che affrontano, e lui dice che imparare in modo under-reactive
 aiuta a fare una scelta più robusta ad inevitabili mispecification del modello.
 
+[[https://www.iris.santannapisa.it/retrieve/dd9e0b31-c04c-709e-e053-3705fe0a83fd/10.1007-s00191-013-0316-6.pdf][Questo testo]] (di Bottazzi!!) è interessante, e cita questa (importante) /Efficient Market Hypothesis/.
+
 * Idee
-** America
+** Più concrete
+*** Reinforcement Learning
+Piuttosto immediata: ci sono tutta una serie di learning processes fatti dagli agenti.
+Ampliare questa scelta coinvolgendo anche cose più complesse tipo modelli di RL?
+
+Forse non va, dato che c'è poco da fare previsioni complicate su dei parametri di una distribuzione.
+Ma se il modello è mispecified la cosa non è così semplice, magari si può andare proprio fuori dagli schemi.
+
+Si potrebbe fare un collegamento con lavori numerici? Agent-based?
+
+**** TODO Trova paper che usano RL in questa cosa
+Se questo ha senso, sicuramente ci stanno paper che usano RL come learning process.
+Probabilmente lo fanno tipo solo sotto model misspecification, o forse model misspecification ha meno senso una volta che usi RL.
+
+Bisognerebbe trovare questi lavori.
+
+**** Stato delle cose
+In realtà mi sa che la cosa non ha troppissimo senso: tutto è fatto sul finito, gli stati sono assunti finiti in numero $S$ ed i parametri sono (a quanto pare giudicando dal [[https://www.lem.sssup.it/WPLem/files/2023-18.pdf][paper di Bottazzi]])
+solo pesi su un numero finito $K$ di modelli, dove un modello non è che un vettore in $\mathbb{R}^{S}$ a somma 1.
+
+Ma invece un estensione di questo?
+
+*** Estensione a caso più complesso
+Questa formalizzazione tutta finita non è proprio moltissimo espressiva (a mio giudizio, a meno di $K, S \gg 1$ , nel qual caso diventa molto complessa...).
+
+Non si potrebbe formulare in modo più espressivo? Probabilmente la formulazione sarebbe più complessa, e soprattutto le proprietà analitiche sarebbero di difficile dimostrazione.
+Forse questo implicherebbe un metodo più basato su esperimenti numerici, che non sarebbe male. Ma come si dovrebbe fare?
+
+Gli stati dovrebbero essere un continuo, e il modello semplicemente una distribuzione sugli stati.
+Questo modello dovrebbe essere flessibile in qualche modo, quindi o parametrico (che però assume una qualche conoscenza sulla struttura del problema)
+o proprio imparato dai dati (modelli di reinforcement learning come funzionano?).
+
+Questa cosa non mi sembra molto complessa, né molto diversa dal caso finito per ora in realtà.
+Forse loro si limitano al caso finito perché ammettere un continuo di stati aumenterebbe la complessità senza rendere la teoria particolarmente più potente.
+Invece, che i parametri siano semplicemente pesi di modelli mi sembra ora una limitazione piuttosto grande.
+Ma forse nemmeno questa lo è: sempre al limite, scelta su un grande numero di modelli potrebbe diventare scelta di un parametro di distribuzione.
+
+** Più astratte
+*** America
 È tutto colpa dell'America? Si può trovare correlazione tra indicatori che descrivono colonizzazione culturale e sviluppo economico?
 Forse questo si può misurare anche calcolando quanta parte della liingua corrente è influenzata dalla lingua colonizzante.
 
