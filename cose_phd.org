@@ -224,9 +224,11 @@ influence within opinion dynamics, where lobbyists can implement complex strateg
 * [[https://www.imtlucca.it/homepage][IMT]]
 In pratica ci sono 2 dottorati interessanti, uno di economia ([[https://eads.imtlucca.it/][EADS, Economics, Analytics and Decision Sciences]]) ed uno di /system science/ ([[https://sys.imtlucca.it/sysimt-school][Sys]]) (qualunque cosa voglia dire...).
 
-Economia scade il <2026-03-06 ven>, system science il <2026-05-26 mar>.
+Economia scade il <2026-06-06 sab>, system science il <2026-05-26 mar>.
 
 ** [[https://eads.imtlucca.it/][EADS]] ([[https://www.imtlucca.it/sites/default/files/2026-02/PhD%20call%20for%20applications%2026-27.pdf][bando]])
+
+[[https://eads.imtlucca.it/faculty][Qui]] stanno le persone.
 
 *** [[https://sites.google.com/site/enniobilancini/home][Ennio Bilancini]] [[https://scholar.google.com/citations?hl=en&user=PegYsyoAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
 È il coordinatore del phd. È piuttosto interessante: dice che fa /evolutionary game theory/ e /behavioural economics/.
@@ -241,6 +243,12 @@ Vediamo esempi:
 **** [[https://drive.google.com/file/d/1jmJ6ZMkFGTadJVVaBeinJ6DnKnkcqDtm/view][Strategy Assortativity and the Evolution of Parochialism]]
 Interessante: studia una società in cui la gente collabora o non collabora. È tipo un prisoner's dilemma sociale.
 In generale, mi sa che è un prisoner's dilemma sociale tutta la letteratura su questo /parochialism/.
+
+*** [[http://cse.lab.imtlucca.it/~mirco.tribastone/][Mirco Tribastone]] [[https://scholar.google.com/citations?hl=en&user=OKbh37IAAAAJ&view_op=list_works&sortby=pubdate][(scholar)]]
+Non si capisce bene perché sta nel dottorato di economia. Se è un errore ok, sennò ha senso che lo contatto e vedo che dice.
+
+È informatico, abbastanza tosto sembra. Fa però cose che stanno al limite tra informatica e ricerca operativa.
+Se fosse nel dottorato di economia per ricerca operativa sarebbe molto interessante. Lavora molto con reti pure.
 
 ** [[https://sys.imtlucca.it/sysimt-school][Sys]] 
 I professori (di tutto il PhD) sono [[https://sys.imtlucca.it/faculty][qui]]. Il coordinatore, [[http://cse.lab.imtlucca.it/~bemporad/][Alberto Bemporad]], nemmeno lo scrivo perché è proprio uno che fa controllo controllo. Ha un h-index assurdo (92???).
@@ -314,7 +322,7 @@ Collabora con questo [[https://sites.google.com/view/jjoc/home?authuser=0][Jaime
 È economista, ma fa sostanzialmente matematica applicata a scienze sociali.
 In realtà, il suo campo è /decision sciences/. Ha avuto visiting sia a IMT che a Dauphine.
 
-Il suo paper più recente è abbastanza interessante, ho scritto delle idee [[file:idee_ricerca/li_calzi_grading/grading.org::+bibliography: grading.bib][qui]].
+Il suo [[https://arxiv.org/pdf/2603.12958][paper più recente]] è abbastanza interessante, ho scritto delle idee [[file:idee_ricerca/li_calzi_grading/grading.org::+bibliography: grading.bib][qui]].
 
 Sembra non faccia econometria praticamente. Interessante direi.
 
