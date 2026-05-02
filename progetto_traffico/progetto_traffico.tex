@@ -1,0 +1,91 @@
+\documentclass{article}
+
+\usepackage[english]{babel} % localisation 
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{csquotes}       % For biblatex with babel
+\usepackage[backend=biber,style=authoryear-comp,sorting=nyt]{biblatex} % Package for bibliography (citing)
+\bibliography{bibliography.bib}
+
+
+\begin{document}
+\section{Introduction}
+\label{sec:intro}
+
+As cities expand, becoming larger and larger
+urban mobility is posing growing challenges to decision makers:
+an increase of travel demand interferes indeed with a limited infrastructure,
+causing a degeneration of travel condition, and several issues.
+
+One of the biggest issues is congestion, which is pervasive in everyday's life,
+and creates big inefficiencies in the system as a whole:
+according to a recent study \parencite{kim2022congestion},
+system inefficiencies leading to congestion
+cause in California an average delay of four to five minutes per commuter per day,
+amounting to an annual economic loss comparable to six billions USD,
+equivalent to 1.67\% of the state's GDP.
+These figures describe the effect of a systemic inefficiency,
+to which a systemic answer needs to be found.
+
+To address this issue, two main strategies can be adopted:
+policies can be implemented to affect either the supply (that is, the infrastructure)
+or the demand (that is, the behaviour of the users).
+On the one hand, implementing policies on the supply side is the easiest way:
+improving the infrastructure looks like an easy solution to a rise in congestion,
+and is often adopted by policy makers.
+Supply side solutions anyway draw many, different challenges.
+Modifying the infrastructure may indeed be infeasible, for different kinds of constraints;
+when feasible, it may be costly, or extremely slow.
+On the other hand,
+one may implement policies which aim to have an impact on the demand of the traffic,
+known under the name of Traffic Demand Management (TDM).
+TDM policies aim to influence when and how the road users move,
+and with this influence to reduce road usage in peak hours and,
+consequently, to reduce congestion.
+A wide variety of these strategies exist:
+examples may include policies such as implementation of fixed or variable tolls,
+congestion pricing, High Occupancy Vehicle (HOV) lanes or parking restrictions,
+as well as incentives for mode-switching like public transport or carpooling.
+
+These policies are generally more flexible, and easier to implement,
+than an infrastructural change.
+Despite this, they require a deep understanding of how congestion is created
+to effectively tackle it.
+Many actors are indeed involved in how congestion develops:
+the users, that choose how and when to travel;
+governments, which make decisions regarding policy and infrastructure;
+the service providers, who are in charge of implementing these policies and react to the users' choices.
+
+Effectively implementing TDM strategies requires understanding how these agents interact and,
+in particular, how the users choose when and how to travel.
+This project proposal aims to deepen the knowledge of this topic.
+The contribution of the project would be twofold:
+on the theoretical side, I aim to improve the current models of congestion forming,
+mainly dating back to \cite{d0907f84-e14a-3d98-ad20-759f41491d6e}.
+The improvement will be targeted to solving existing issues in the model,
+as noted in \cite{https://doi.org/10.1111/iere.12692}.
+On the applied side, the model still needs to be properly validated with data,
+and reliable values for its parameters need to be found via proper calibration of the model.
+This calibration can be done by using several data sources,
+including modern data sources such as drone imaging \parencite{fonod2025songdo}.
+
+The project proposal is structured as follow:
+section consists of a review of the existing literature,
+describing how congestion theory was developed until now.
+Section will explain the contributions of this project to the literature,
+what I aim to improve and what methods will be used to achieve that aim.
+
+\section{Literature Review}
+\label{sec:lit}
+
+Modelling congestion is not a new issue in the literature,
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
