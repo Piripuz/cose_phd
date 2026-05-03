@@ -14,7 +14,7 @@
 \section{Introduction}
 \label{sec:intro}
 
-As cities expand, becoming larger and larger
+As cities expand, becoming larger and larger,
 urban mobility is posing growing challenges to decision makers:
 an increase of travel demand interferes indeed with a limited infrastructure,
 causing a degeneration of travel condition, and several issues.
@@ -47,7 +47,8 @@ consequently, to reduce congestion.
 A wide variety of these strategies exist:
 examples may include policies such as implementation of fixed or variable tolls,
 congestion pricing, High Occupancy Vehicle (HOV) lanes or parking restrictions,
-as well as incentives for mode-switching like public transport or carpooling.
+as well as incentives for mode-switching to,
+for instance, public transport or carpooling.
 
 These policies are generally more flexible, and easier to implement,
 than an infrastructural change.
@@ -69,13 +70,13 @@ as noted in \cite{https://doi.org/10.1111/iere.12692}.
 On the applied side, the model still needs to be properly validated with data,
 and reliable values for its parameters need to be found via proper calibration of the model.
 This calibration can be done by using several data sources,
-including modern data sources such as drone imaging \parencite{fonod2025songdo}.
+including modern ones such as drone imaging \parencite{fonod2025songdo}.
 
 The project proposal is structured as follow:
-section consists of a review of the existing literature,
-describing how congestion theory was developed until now.
-Section will explain the contributions of this project to the literature,
-what I aim to improve and what methods will be used to achieve that aim.
+section~\ref{sec:lit} consists of a review of the existing literature,
+describing how congestion theory was developed and pointing out some open issues in the field.
+Section~\ref{sec:proj_desc} will explain the contributions of this project to the literature,
+what I aim to improve and what methods will be used to achieve the aims.
 
 \section{Literature Review}
 \label{sec:lit}
@@ -113,6 +114,9 @@ and on the time they arrive \textit{after} it, with three different coefficients
   \label{eq:cost_intro}
   C(t) = \alpha(\text{travel time}) + \beta (\text{time early}) + \gamma (\text{time late})
 \end{equation}
+
+The model is thus known under the names of \textit{ADL} (from the names of the authors),
+or \(\alpha\)-\(\beta\)-\(\gamma\) model.
 
 Considering a cost as simple as this yields several advantages:
 it indeed allows an equilibrium solution to be found \parencite{de1983stochastic},
@@ -159,7 +163,7 @@ The proposal will now focus more on the literature relevant for the project and,
 in particular, on the problems encountered when validating the model with real data.
 
 \textcite{54d203ee-4bf8-3234-9286-56e4c8b7f5bd} does a first attempt in doing so:
-it indeed tries to find values for the ratios \(\beta/\alpha, \gamma/\alpha\),
+the author indeed tries to find values for the ratios \(\beta/\alpha, \gamma/\alpha\),
 relative to the parameters in equation \eqref{eq:cost_intro}.
 It does so by fitting a discrete choice model on survey data,
 after conducting a survey in which 527 commuters in the USA stated when they arrive to work.
@@ -179,11 +183,11 @@ While this solution seemingly solves the issue,
 it presents several issues, that will be addressed in the next section.
 
 After this discrepancy with real data is solved,
-the model needs to be properly calibrated with real data.
+the model needs to be properly calibrated.
 Numerical simulators of road traffic,
-such as METROPOLIS and METROPOLIS2 \parencite{de1997metropolis,javaudin2024metropolis2},
+such as METROPOLIS and METROPOLIS2 \parencite{de1997metropolis,RePEc:ema:worpap:2024-03},
 already converge to a satisfactory approximation of the theoretical equilibria
-\parencite{javaudin2024metropolis2},
+\parencite{RePEc:ema:worpap:2024-03},
 and can efficiently be employed as a bridge between the theory and its application in policy making.
 To converge to meaningful solutions,
 they need anyway to rely on a proper description of the population.
