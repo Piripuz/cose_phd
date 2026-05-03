@@ -195,6 +195,65 @@ they need anyway to rely on a proper description of the population.
 The next section is devoted to describing how the project could tackle these issues,
 and what results it could provide.
 
+\section{Project Description}
+\label{sec:proj_desc}
+
+The proposed project is articulated in two main parts:
+the first part will deal with improving the \(\alpha\)-\(\beta\)-\(\gamma\) model,
+to solve the issues highlighted by \textcite{https://doi.org/10.1111/iere.12692}.
+
+To achieve this aim, different methods can be employed.
+
+First of all, a different distribution of users can be considered.
+Considering \textit{inframarginal} users, as in \textcite{https://doi.org/10.1111/iere.12692},
+is an instance of this approach:
+by allowing travellers to be inframarginal,
+the distribution of the parameters \(\beta\), \(\gamma\) is assumed to have a consistent tail.
+But no other features of these distributions are specified.
+\textcite{yang2026recovering}, assuming the parameters to be normally distributed,
+retrieve the mean and variance of the distribution from data.
+But normal distributions do not allow them to validate the method with real data,
+as inframarginal travellers are not enough in this setting.
+Other distributions can be considered,
+to evaluate whether simply modifying the users' preferences could solve the observed issue with real data.
+
+Apart from changing the distribution of users,
+structural changes to the model can be made,
+trading off its simplicity for an improved adherence to real data.
+
+The first modification that can be made is about the coefficients themselves:
+considering users facing costs that do not increase linearly on early, late arrivals may produce a more flexible model,
+allowing equilibrium solutions similar to the ones observed in reality.
+
+Lastly, uncertainty can be considered in the cost function.
+Introducing uncertainty is not trivial, and can be made at several levels:
+considering users with distributed preferences introduces uncertainty at the global level,
+and is a problem tackled by several articles.
+Note anyway that this is different from introducing uncertainty in the cost function of the single user,
+and may lead to a different result, with a different minimization process.
+This approach can be taken considering risk aversion,
+as done in \textcite{doi:10.1177/0361198118792336}, or neglecting it,
+in favour of a simpler model to deal with analytically.
+
+The second part of the project concerns the actual validation of the model with data.
+This will involve working with datasets and simulators,
+including for instance the Performance Measurement System (PeMS) by the California Department of Transportation (CalTrans),
+and the simulator METROPOLIS2 \parencite{RePEc:ema:worpap:2024-03}.
+The aim of this part will be to actually calibrate the model,
+to find how the parameters are distributed in reality,
+in accordance with the existing literature.
+
+Several data sources can be employed to validate the model:
+Sources used in \textcite{https://doi.org/10.1111/iere.12692} include the PeMS dataset,
+as well as data independently collected from Google Maps.
+Apart from these, datasets allowing for more complex network topologies can be employed.
+These include data obtained from gps tracking of vehicles \parencite{mazare2012trade},
+or from several other methods, including even, for instance, drone imaging \parencite{fonod2025songdo}
+
+Note that this second part is dependant from the first one,
+and it is intimately connected to it.
+Depending on the results of the first part,
+calibration with data can become very simple or infeasible.
 
 \newpage
 \printbibliography
