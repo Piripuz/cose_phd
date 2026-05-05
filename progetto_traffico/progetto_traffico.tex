@@ -101,9 +101,8 @@ and \textcite{d0907f84-e14a-3d98-ad20-759f41491d6e},
 which take into account elastic demand and better formalize the initial model.
 
 These models better characterize how congestion is generated:
-each user travelling through a bottleneck is assumed to face a cost,
-depending on some user-dependant parameters.
-A user thus decides when to commute based on when its cost is minimized.
+each user travelling through a bottleneck is assumed to be a rational agent, 
+minimizing a cost depending on some user-dependant parameters.
 
 The model is thus known under the names of \textit{ADL}, from the names of the authors,
 or \(\alpha\)-\(\beta\)-\(\gamma\) model, from the parameters in the cost function.
@@ -166,18 +165,13 @@ to solve the issues highlighted by \textcite{https://doi.org/10.1111/iere.12692}
 
 To achieve this aim, different methods can be employed.
 
-First of all, a different distribution of users can be considered.
-Considering \textit{inframarginal} users, as in \textcite{https://doi.org/10.1111/iere.12692},
-is an instance of this approach:
-by allowing travellers to be inframarginal,
-the distribution of the parameters \(\beta\), \(\gamma\) is assumed to have a consistent tail.
-But no other features of these distributions are specified.
-\textcite{yang2026recovering}, assuming the parameters to be normally distributed,
-retrieve the mean and variance of the distribution from data.
-But normal distributions do not allow them to validate the method with real data,
-as inframarginal travellers are not enough in this setting.
-Other distributions can be considered,
-to evaluate whether simply modifying the users' preferences could solve the observed issue with real data.
+The first method extends what done in \textcite{https://doi.org/10.1111/iere.12692}:
+considering travellers to be \textit{inframarginal} is equivalent to assume their
+parameters to follow some specific probability distributions.
+Drawing from what done in \textcite{amirgholy2017analytical},
+methods from statistics and portfolio theory can be employed to develop
+a better knowledge of whether simple modifications to the users' preferences could lead to
+the traffic patterns observed in reality.
 
 Apart from changing the distribution of users,
 structural changes to the model can be made,
@@ -187,15 +181,12 @@ The first modification that can be made is about the coefficients themselves:
 considering users facing costs that do not increase linearly on early, late arrivals may produce a more flexible model,
 allowing equilibrium solutions similar to the ones observed in reality.
 
-Lastly, uncertainty can be considered in the cost function.
-Introducing uncertainty is not trivial, and can be made at several levels:
-considering users with distributed preferences introduces uncertainty at the global level,
-and is a problem tackled by several articles.
-Note anyway that this is different from introducing uncertainty in the cost function of the single user,
-and may lead to a different result, with a different minimization process.
-This approach can be taken considering risk aversion,
-as done in \textcite{doi:10.1177/0361198118792336}, or neglecting it,
-in favour of a simpler model to deal with analytically.
+Lastly, tools from utility theory can be used to take into account uncertainty into the cost function.
+\textcite{de2013random, doi:10.1177/0361198118792336} introduce uncertainty,
+and study how risk-averse travellers behave in this case.
+Different kinds of uncertainties can anyway be considered,
+introducing noise at different levels,
+leading to different models that can be studied analytically themselves.
 
 The second part of the project concerns the actual validation of the model with data.
 This will involve working with datasets and simulators,
