@@ -14,16 +14,16 @@
 \section{Introduction}
 \label{sec:intro}
 
-As cities expand, becoming larger and larger,
-urban mobility is posing growing challenges to decision makers:
+As cities expand,
+urban mobility poses growing challenges to decision makers:
 an increase of travel demand interferes indeed with a limited infrastructure,
-causing a degeneration of travel conditions.
+causing a deterioration of travel conditions.
 
 One of the biggest issues is congestion,
-which creates big inefficiencies in the system as a whole:
+which creates significant inefficiencies in the system as a whole:
 according to a recent study \parencite{kim2022congestion},
 system inefficiencies leading to congestion
-cause in California an average delay of four to five minutes per commuter per day,
+cause an average delay of four to five minutes per commuter per day in California,
 amounting to an annual economic loss comparable to six billions USD,
 equivalent to 1.67\% of the state's GDP.
 These figures describe the effect of a systemic inefficiency,
@@ -32,68 +32,68 @@ to which a systemic answer needs to be found.
 To address this issue, two main strategies can be adopted:
 policies can be implemented to affect either the supply side of traffic (that is, the infrastructure)
 or the demand side (that is, the behaviour of the users).
-On the one hand, implementing policies on the supply side seems an easy solution.
-Supply side solutions anyway draw many, different challenges.
+On the one hand, implementing policies on the supply side appears to be an easy solution.
+Supply side solutions however draw many, different challenges.
 Modifying the infrastructure may indeed be infeasible, for different kinds of constraints;
-when feasible, it may be costly, or extremely slow.
+when feasible, it may be costly or extremely slow.
 On the other hand,
 one may implement policies which aim to have an impact on the demand side of traffic,
-known under the name of Traffic Demand Management (TDM).
+known as Traffic Demand Management (TDM) policies.
 TDM policies aim to influence when and how the road users move,
-and with this influence to reduce road usage in peak hours and,
-consequently, to reduce congestion.
+thereby reducing road usage in peak hours and,
+consequently, congestion.
 A wide variety of these strategies exist:
-examples may include policies such as implementation of fixed or variable tolls,
+examples include implementation of fixed or variable tolls,
 congestion pricing, High Occupancy Vehicle (HOV) lanes or parking restrictions,
 as well as incentives for mode-switching to,
 for instance, public transport or carpooling.
 
-These policies are generally more flexible, and easier to implement,
+These policies are generally more flexible and easier to implement
 than an infrastructural change.
-Despite this, they require a deep understanding of how congestion is created
+Nevertheless, they require a deep understanding of how congestion is created
 to effectively tackle it.
 Many actors are indeed involved in how congestion develops:
-the users, that choose how and when to travel;
+users, that choose how and when to travel;
 governments, which make decisions regarding policy and infrastructure;
-the service providers, who are in charge of implementing these policies and react to the users' choices.
+service providers, who are in charge of implementing these policies and react to the users' choices.
 
 Effectively implementing TDM strategies requires understanding how these agents interact and,
-in particular, how the users choose when and how to travel.
+in particular, how users choose when and how to travel.
 This project proposal aims to deepen the knowledge of this topic.
 The contribution of the project will be twofold:
-on the theoretical side, the main goal is to improve the current models of congestion forming,
+on the theoretical side, the main goal is to improve the current models of congestion formation,
 mainly dating back to \textcite{d0907f84-e14a-3d98-ad20-759f41491d6e}.
-The improvement will be targeted to solving existing issues in the model,
+The improvement will be targeted at solving existing issues in the model,
 as noted in \textcite{https://doi.org/10.1111/iere.12692}.
 On the applied side, the model still needs to be properly validated with data,
 and reliable values for its parameters need to be found via proper calibration of the model.
 This calibration can be done by using several data sources,
 including modern ones such as drone imaging \parencite{fonod2025songdo}.
 
-The project proposal is structured as follow:
-section~\ref{sec:lit} consists of a review of the existing literature,
+The project proposal is structured as follows:
+Section~\ref{sec:lit} consists of a review of the existing literature,
 describing how congestion theory was developed and pointing out some open issues in the field.
 Section~\ref{sec:proj_desc} will explain the contributions of this project to the literature,
 what the project aims to improve and what methods will be used to achieve the goals.
 
-\section{Literature Review}
+\section{Background}
 \label{sec:lit}
 
 Modelling congestion is not a new issue in the literature.
 Early works, such as \textcite{Jorgensen1947},
 relied on static modelling:
-the dependency of traffic on the time of the day was neglected,
+the dependency of traffic on time of the day was neglected,
 typically considering different regimes for peak and off-peak congestion.
 
 This approach was challenged by two seminal papers by William Vickrey \parencite{Vickrey1963, Vickrey1969},
 which gave the first example of what are now known as \textit{dynamic} traffic models,
 laying the foundation of bottleneck modelling.
-In these models, the traffic is assumed to vary on the time of the day.
+In these models, the traffic is assumed to vary with time of day.
 According to Vickrey's theory,
 the road network has some junctions whose capacity is limited,
-meaning that there exists a maximal flow of vehicles that can pass through them at any time.
+in which there exists a maximal flow of vehicles that can pass through them at any time.
 These junctions are called \textit{bottlenecks}, since they restrict the traffic flow as a bottleneck does with a flowing liquid.
-Modelling the traffic reduces thus to modelling the interactions between the users and the bottlenecks they face.
+Modelling the traffic thus reduces to modelling the interactions between the users and the bottlenecks they encounter.
 
 Vickrey's work was later extended by \textcite{de1983stochastic},
 which look for a stochastic equilibrium solution,
@@ -102,106 +102,107 @@ which take into account elastic demand and better formalize the initial model.
 
 These models better characterize how congestion is generated:
 each user travelling through a bottleneck is assumed to be a rational agent, 
-minimizing a cost depending on some user-dependant parameters.
+who minimizes a cost that depends on some user-dependent parameters.
 
-The model is thus known under the names of \textit{ADL}, from the names of the authors,
+The model is thus known as \textit{ADL}, from the names of the authors,
 or \(\alpha\)-\(\beta\)-\(\gamma\) model, from the parameters in the cost function.
 
-Many works focused in finding an equilibrium solution when a group of users compete for one or more bottlenecks,
-by varying either the composition of the users or the topology of the network.
+Many studies have focused on finding an equilibrium solution when a group of users compete for one or more bottlenecks,
+by varying either user composition or network topology.
 
-Originally, \textcite{de1983stochastic} found the solution for a group of homogenous users and a single bottleneck.
-Their work has been extended, taking into account increasingly complex networks.
-Notable works that do this include \textcite{doi:10.1287/trsc.24.3.217, doi:10.1287/trsc.27.2.148},
+Originally, \textcite{de1983stochastic} found the solution for a group of homogeneous users and a single bottleneck.
+Their work has been extended, taking into account increasingly complex network topologies.
+Notable examples include \textcite{doi:10.1287/trsc.24.3.217, doi:10.1287/trsc.27.2.148},
 which study a Y-shaped network,
 as well as \textcite{AKAMATSU2015808} for more complex networks.
 
 Similarly to how more complex road networks have been studied,
-recent literature has been increasing the complexity of the population of users.
+recent literature has increased the complexity of the population of users.
 
 Initial works, such as \textcite{Vickrey1969}, considered the users to be homogeneous.
 Notable examples of works relaxing this hypothesis include \textcite{arnott1988schedule, amirgholy2017analytical}.
 
-For a deeper review of bottleneck modelling, please refer to \textcite{LI2020311};
-the proposal will now focus more on the literature relevant for the project and,
+For a deeper review of bottleneck modelling, see \textcite{LI2020311}.
+The proposal will now focus more on the literature relevant for the project and,
 in particular, on the problems encountered when validating the model with real data.
 
-\textcite{54d203ee-4bf8-3234-9286-56e4c8b7f5bd} does a first attempt in doing so,
-by fitting a discrete choice model on survey data.
+\textcite{54d203ee-4bf8-3234-9286-56e4c8b7f5bd} makes a first attempt,
+by fitting a discrete choice model to survey data.
 The values found and reported by it are widely used in the literature,
 as in, for instance, \textcite{d0907f84-e14a-3d98-ad20-759f41491d6e}.
 \textcite{https://doi.org/10.1111/iere.12692} presents a review of the parameter values used in the literature.
 
 Furthermore, \textcite{https://doi.org/10.1111/iere.12692} highlights a relevant issue in calibrating the model with data and,
-as a consequence, in the whole theory:
+as a consequence, for the theory as a whole:
 when studying data about real travel time patterns (that is, how the travel time across a real bottleneck changes through the day),
 observed slopes significantly differ from the theoretically predicted ones.
 
-The author of the article suggests a solution, that is,
-to consider a big amount of the travellers as \textit{inframarginal},
-travellers who are not willing to change their departure time.
+The author of the article suggests a solution,
+namely to consider a large share of the travellers as \textit{inframarginal},
+i.e., unwilling to change their departure time.
 While this solution seemingly solves the issue,
 it presents several drawbacks, to be addressed in future research.
 
-After this discrepancy with real data is solved,
+Once this discrepancy is resolved,
 the model needs to be properly calibrated.
 Numerical simulators of road traffic,
 such as METROPOLIS and METROPOLIS2 \parencite{de1997metropolis,RePEc:ema:worpap:2024-03},
 already converge to a satisfactory approximation of the theoretical equilibria
 \parencite{RePEc:ema:worpap:2024-03},
-and can efficiently be employed as a bridge between the theory and its application in policy making.
+and can efficiently be employed as a bridge between the theory and its application in policy-making.
 To converge to meaningful solutions,
 they need anyway to rely on a proper description of the population.
 
-The next section is devoted to describing how the project could tackle these issues,
-and what results it could provide.
+The next section describes how the project will address these issues,
+and the results it aims to deliver.
 
 \section{Project Description}
 \label{sec:proj_desc}
 
-The proposed project is articulated in two main parts:
-the first part will deal with improving the \(\alpha\)-\(\beta\)-\(\gamma\) model,
-to solve the issues highlighted by \textcite{https://doi.org/10.1111/iere.12692}.
+The proposed project is articulated in two main parts.
+The first part focuses on improving the \(\alpha\)-\(\beta\)-\(\gamma\) model,
+to address the issues highlighted by \textcite{https://doi.org/10.1111/iere.12692}.
 
-To achieve this aim, different methods can be employed.
+To achieve this aim, several methods will be employed.
 
 The first method extends what done in \textcite{https://doi.org/10.1111/iere.12692}:
-considering travellers to be \textit{inframarginal} is equivalent to assume their
+considering travellers to be \textit{inframarginal} is equivalent to assuming their
 parameters to follow some specific probability distributions.
 Drawing from what done in \textcite{amirgholy2017analytical},
-methods from statistics and portfolio theory can be employed to develop
-a better knowledge of whether simple modifications to the users' preferences could lead to
+methods from statistics and portfolio theory can be employed to better
+assess whether simple modifications to the users' preferences could lead to
 the traffic patterns observed in reality.
 
 Apart from changing the distribution of users,
-structural changes to the model can be made,
+structural changes to the model may be made,
 trading off its simplicity for an improved adherence to real data.
 
-The first modification that can be made is about the coefficients themselves:
-considering users facing costs that do not increase linearly on early, late arrivals may produce a more flexible model,
-allowing equilibrium solutions similar to the ones observed in reality.
+The first modification concerns the coefficients themselves:
+allowing costs that increase non-linearly on early,
+late arrivals may yield a more flexible model,
+maybe allowing equilibrium solutions similar to the ones observed in reality.
 
 Lastly, tools from utility theory can be used to take into account uncertainty into the cost function.
-\textcite{de2013random, doi:10.1177/0361198118792336} introduce uncertainty,
+\textcite{de2013random, doi:10.1177/0361198118792336} consider uncertainty,
 and study how risk-averse travellers behave in this case.
-Different kinds of uncertainties can anyway be considered,
+Various forms of uncertainties can anyway be considered,
 introducing noise at different levels,
-leading to different models that can be studied analytically themselves.
+leading to different models that can be analysed analytically.
 
 The second part of the project concerns the actual validation of the model with data.
 This will involve working with datasets and simulators,
-including for instance the Performance Measurement System (PeMS) by the California Department of Transportation (CalTrans),
+including for instance the Performance Measurement System (PeMS) from the California Department of Transportation (CalTrans),
 and the simulator METROPOLIS2 \parencite{RePEc:ema:worpap:2024-03}.
-The aim of this part will be to actually calibrate the model,
+The aim of this part is to calibrate the model,
 to find how the parameters are distributed in reality,
 in accordance with the existing literature.
 
 Several data sources can be employed to validate the model:
-Sources used in \textcite{https://doi.org/10.1111/iere.12692} include the PeMS dataset,
-as well as data independently collected from Google Maps.
+sources used in \textcite{https://doi.org/10.1111/iere.12692} include the PeMS dataset,
+as well as data independently sourced from Google Maps.
 Apart from these, datasets allowing for more complex network topologies can be employed.
-These include data obtained from gps tracking of vehicles \parencite{mazare2012trade},
-or from several other methods, including even, for instance, drone imaging \parencite{fonod2025songdo}
+These include data obtained from GPS tracking of vehicles \parencite{mazare2012trade},
+or from several other methods including, for instance, drone imaging \parencite{fonod2025songdo}
 
 Note that this second part is dependant from the first one,
 as well as intimately connected to it.
