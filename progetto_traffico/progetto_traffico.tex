@@ -24,15 +24,16 @@ which creates significant inefficiencies in the system as a whole:
 according to a recent study \parencite{kim2022congestion},
 system inefficiencies leading to congestion
 cause an average delay of four to five minutes per commuter per day in California,
-amounting to an annual economic loss comparable to 1.67\% of the state's GDP.
-This figure describes the effect of a systemic inefficiency,
+amounting to an annual economic loss comparable to six billions USD,
+equivalent to 1.67\% of the state's GDP.
+These figures describe the effect of a systemic inefficiency,
 to which a systemic answer needs to be found.
 
 To address this issue, two main strategies can be adopted:
 policies can be implemented to affect either the supply side of traffic (that is, the infrastructure)
 or the demand side (that is, the behaviour of the users).
 On the one hand, implementing policies on the supply side appears to be an easy solution.
-This solution however draw many, different challenges.
+Supply side solutions however draw many, different challenges.
 Modifying the infrastructure may indeed be infeasible, for different kinds of constraints;
 when feasible, it may be costly or extremely slow.
 On the other hand,
@@ -91,7 +92,7 @@ In these models, the traffic is assumed to vary with time of day.
 According to Vickrey's theory,
 the road network has some junctions whose capacity is limited,
 in which there exists a maximal flow of vehicles that can pass through them at any time.
-These junctions are called \textit{bottlenecks}.
+These junctions are called \textit{bottlenecks}, since they restrict the traffic flow as a bottleneck does with a flowing liquid.
 Modelling the traffic thus reduces to modelling the interactions between the users and the bottlenecks they encounter.
 
 Vickrey's work was later extended by \textcite{de1983stochastic},
@@ -110,13 +111,16 @@ Many studies have focused on finding an equilibrium solution when a group of use
 by varying either user composition or network topology.
 
 Originally, \textcite{de1983stochastic} found the solution for a group of homogeneous users and a single bottleneck.
-Several studies extended their work.
-Studies taking into account increasingly complex network topologies
-include, for instance, \textcite{doi:10.1287/trsc.24.3.217, doi:10.1287/trsc.27.2.148, AKAMATSU2015808}
+Their work has been extended, taking into account increasingly complex network topologies.
+Notable examples include \textcite{doi:10.1287/trsc.24.3.217, doi:10.1287/trsc.27.2.148},
+which study a Y-shaped network,
+as well as \textcite{AKAMATSU2015808} for more complex networks.
 
-Similarly,
+Similarly to how more complex road networks have been studied,
 recent literature has increased the complexity of the population of users.
-Notable examples of works considering non-homogenous users include \textcite{arnott1988schedule, amirgholy2017analytical}.
+
+Initial works, such as \textcite{Vickrey1969}, considered the users to be homogeneous.
+Notable examples of works relaxing this hypothesis include \textcite{arnott1988schedule, amirgholy2017analytical}.
 
 For a deeper review of bottleneck modelling, see \textcite{LI2020311}.
 The proposal will now focus more on the literature relevant for the project and,
@@ -147,7 +151,7 @@ already converge to a satisfactory approximation of the theoretical equilibria
 \parencite{RePEc:ema:worpap:2024-03},
 and can efficiently be employed as a bridge between the theory and its application in policy-making.
 To converge to meaningful solutions,
-they anyway need to rely on a proper description of the population.
+they need anyway to rely on a proper description of the population.
 
 The next section describes how the project will address these issues,
 and the results it aims to deliver.
