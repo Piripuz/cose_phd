@@ -167,6 +167,14 @@ Non si capisce bene perché sta nel dottorato di economia. Se è un errore ok, s
 È informatico, abbastanza tosto sembra. Fa però cose che stanno al limite tra informatica e ricerca operativa.
 Se fosse nel dottorato di economia per ricerca operativa sarebbe molto interessante. Lavora molto con reti pure.
 
+*** Giorgio Gnecco
+
+*** Irene Crimaldi
+
+*** Massimo Riccaboni
+
+*** Kenan Huremovic
+
 ** [[https://sys.imtlucca.it/sysimt-school][Sys]] 
 I professori (di tutto il PhD) sono [[https://sys.imtlucca.it/faculty][qui]]. Il coordinatore, [[http://cse.lab.imtlucca.it/~bemporad/][Alberto Bemporad]], nemmeno lo scrivo perché è proprio uno che fa controllo controllo. Ha un h-index assurdo (92???).
 

@@ -1,0 +1,10 @@
+* Intro
+Ciao io sono Pietro ho fatto questo e quell'altro tesi economia del trasporto.
+
+MA vorrei cambiare un po'. In particolare, vorrei avvicinarmi a cose più teoriche, tipo teoria dei giochi/teoria delle decisioni (cito qualche paper della scuola, poi vedo che).
+
+Per avvicinarmi, corsi molto utili. A parte questo, potrei fare ricerca nell'ambito ma più teorica.
+
+Molta ricerca è stata fatta in teoria dei giochi su reti stradali. In particolare, /congestion games/, /network cooperative games/ ([[https://doi.org/10.1007/978-3-031-90095-2_3][questo]] paper di Gnecco su Shapley Value).
+
+Questa ricerca può essere estesa considerando (caratteristiche dinamiche del traffico?)
