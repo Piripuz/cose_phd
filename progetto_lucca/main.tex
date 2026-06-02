@@ -86,6 +86,40 @@ Studies at equilibrium were started by
 yielding a model for congestion at equilibrium under elastic demand,
 where users can freely decide their departure time.
 For a review of work done in the field, refer to \textcite{LI2020311}.
+
+On the other hand, the network itself can be directly studied,
+developing the analysis around spatial preferences (i.e. route choice)
+rather than departure time choice.
+This approach, often grounded in game theory,
+has been widely taken in the literature:
+a road network is indeed the prototypical application of congestion games \parencite{Rosenthal1973ACO},
+and many studies have been done on them,
+including for instance the case in which congestion is repeated in several consequent days \parencite{chen1997boundedly},
+and agents learn the traffic condition through various methods \parencite{han2006interactive}.
+
+When having this approach, interesting issues arise.
+The issue that is the most known is probably the Braess' paradox \parencite[originally published in German in 1968, translated in][]{braess2005paradox}:
+this paradox, according to which adding some roads to a traffic network can slow down the overall traffic flowing through it,
+became widely known when, in 1990,
+the closure of one of the most congested roads in New York led to a decrease of the overall congestion \parencite{kolata_1990}.
+This phenomenon suggests a different strategy for describing the road network:
+rather than considering agents as the players of the game,
+one could consider a cooperative game in which the players are the roads themselves and,
+by deciding not to be available to traffic,
+they can minimise the total congestion.
+This interesting approach is defined by \textcite{HADAS2017120},
+and subsequently developed to efficiently compute a measure for the importance of each road in
+\textcite{gnecco2021public,passacantando2021braess}.
+
+Interestingly, both the bottleneck and the network-based approach use,
+more or less explicitly, concepts of game theory.
+Nonetheless, game theory is less extensively used when directly dealing with bottlenecks,
+while the elastic demand of traffic is often neglected when dealing with the traffic infrastructure.
+
+The goal of this project proposal will thus be to bridge the two approaches,
+by considering users that, in a game-theoretic formulation,
+are allowed to change both their route and departure time.
+
 \newpage
 \printbibliography
 
